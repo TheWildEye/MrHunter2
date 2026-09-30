@@ -1,4 +1,4 @@
-# 🔐 Petpooja Claude Code Security & Compliance Agent
+# 🔐 MrHunter - AI Assisted Security & Compliance Agent
 
 An advanced, zero-infrastructure security and regulatory compliance scanner built specifically for **Claude Code**.
 
