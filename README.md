@@ -46,10 +46,10 @@
 ## 🎬 See It In Action
 
 <a href="#-quick-start">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=1600&pause=450&color=00FF9C&background=0D1117&center=true&vCenter=true&width=860&height=260&lines=%24+mrhunter-quick-scan;%E2%96%B8+Recon%3A+2%2C847+files+%C2%B7+8+languages+detected;%E2%96%B8+SAST+%2B+DAST+%2B+Secrets+engines+online...;%F0%9F%94%B4+CRITICAL+%C2%B7+SQL+Injection+%E2%80%94+api%2Fusers.py%3A42;%F0%9F%9F%A0+HIGH+%C2%B7+Hardcoded+AWS+key+%E2%80%94+config.py%3A11;%F0%9F%9F%A1+MEDIUM+%C2%B7+Open+CORS+%E2%80%94+server.js%3A19;%E2%9C%94+Report+ready+%E2%80%94+proven%2C+ranked%2C+exported" alt="live scan demo"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=1600&pause=450&color=00FF9C&background=0D1117&center=true&vCenter=true&width=860&height=260&lines=%24+mrhunter-quick-scan;%E2%96%B8+Recon%3A+2%2C847+files+%C2%B7+8+languages+detected;%E2%96%B8+SAST+%2B+DAST+%2B+Secrets+engines+online...;%F0%9F%94%B4+CRITICAL+%C2%B7+SQL+Injection+%2D+api%2Fusers.py%3A42;%F0%9F%9F%A0+HIGH+%C2%B7+Hardcoded+AWS+key+%2D+config.py%3A11;%F0%9F%9F%A1+MEDIUM+%C2%B7+Open+CORS+%2D+server.js%3A19;%E2%9C%94+Report+ready+%2D+proven%2C+ranked%2C+exported" alt="live scan demo"/>
 </a>
 
-<sub>⬆️ a live MrHunter scan — from one command to a board-ready verdict in seconds</sub>
+<sub>⬆️ a live MrHunter scan, from one command to a board-ready verdict in seconds</sub>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,2,8&height=3&width=100%"/>
 
@@ -86,7 +86,7 @@
 </tr>
 </table>
 
-> 💪 **Battle-tested at Petpooja — India's largest F&amp;B SaaS platform** — where the MrHunter engine was first hardened against real-world, high-scale production code.
+> 💪 **Battle-tested at Petpooja, India's largest F&amp;B SaaS platform**, where the MrHunter engine was first hardened against real-world, high-scale production code.
 
 <br/>
 
@@ -156,10 +156,10 @@
 <tr>
 <td width="50%" valign="top">
 
-### 🔍 SAST — Static Analysis
+### 🔍 SAST: Static Analysis
 Deep code reasoning across **Python, JS/TS, Java, Go, PHP, Ruby, Kotlin &amp; Swift**.
 - SQLi, Command Injection, XSS, SSRF, XXE, deserialization, path traversal &amp; more
-- **Taint tracing** — follows the data from user input to the dangerous sink
+- **Taint tracing**, follows the data from user input to the dangerous sink
 - **Logic-over-patterns** engine: fewer false positives, more real bugs
 
 </td>
@@ -177,7 +177,7 @@ Runtime attack simulation with **zero network calls**.
 <td width="50%" valign="top">
 
 ### 🔑 Secret Hunter
-Scans **every file** — source, scripts, notebooks, `.env`, and gitignored files.
+Scans **every file**, source, scripts, notebooks, `.env`, and gitignored files.
 - **35+ credential types:** AWS, GCP, Azure, Stripe, Razorpay, OpenAI, Anthropic, Gemini, Slack, private keys &amp; more
 - Flags **gitignored vs. committed** so you know the blast radius instantly
 
@@ -185,21 +185,22 @@ Scans **every file** — source, scripts, notebooks, `.env`, and gitignored file
 <td width="50%" valign="top">
 
 ### ⚖️ Compliance Engine
-Seven Indian regulatory frameworks, mapped to your actual code.
+Global standards plus seven Indian regulatory frameworks, mapped to your actual code.
+- ISO/IEC 27001 · NIST SP 800-53
 - DPDP Act 2023 · IT Act 2000 · PCI DSS 4.0.1
 - CERT-IN 2022 · RBI · SEBI CSCRF · IRDAI
-- **Exact section + penalty exposure** for every finding
+- **Exact control/section + penalty exposure** for every finding
 
 </td>
 </tr>
 <tr>
 <td colspan="2" valign="top">
 
-### 🧠 Security Reviewer — The Triage Layer
+### 🧠 Security Reviewer: The Triage Layer
 Deduplicates, cross-references and **risk-ranks** everything the other engines find.
 - CVSS v4.0 + OWASP Risk Rating scoring
 - Removes false positives, verifies reachability, separates *real* from *theoretical*
-- Produces **one board-ready report** — technical depth for engineers, plain English for leadership
+- Produces **one board-ready report**, technical depth for engineers, plain English for leadership
 
 </td>
 </tr>
@@ -211,7 +212,7 @@ Deduplicates, cross-references and **risk-ranks** everything the other engines f
 
 ## 🔌 Bring Your Own Agent (BYOA)
 
-> **MrHunter is agent-agnostic.** It's a portable security &amp; compliance brain you can drop into **any** AI coding agent you already use — no lock-in, no new tool to learn.
+> **MrHunter is agent-agnostic.** It's a portable security &amp; compliance brain you can drop into **any** AI coding agent you already use, no lock-in, no new tool to learn.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,2,8&height=3&width=100%"/>
 
@@ -232,24 +233,24 @@ Deduplicates, cross-references and **risk-ranks** everything the other engines f
 <td width="50%" valign="top">
 
 ### 🚀 Why teams pick BYOA
-- **No lock-in** — your agent, your choice
-- **One skill pack, every agent** — write once, run anywhere
-- **Zero infra** — runs locally, inside your editor
-- **Future-proof** — swap agents anytime, keep MrHunter
+- **No lock-in**, your agent, your choice
+- **One skill pack, every agent**, write once, run anywhere
+- **Zero infra**, runs locally, inside your editor
+- **Future-proof**, swap agents anytime, keep MrHunter
 
 </td>
 </tr>
 </table>
 
-<sub>Same engines. Same reports. Same compliance verdicts — whichever agent you point at your code.</sub>
+<sub>Same engines. Same reports. Same compliance verdicts, whichever agent you point at your code.</sub>
 
 ---
 
 <div align="center">
 
-## 🏛️ Audit &amp; GRC — Governance, Risk &amp; Compliance
+## 🏛️ Audit &amp; GRC: Governance, Risk &amp; Compliance
 
-> MrHunter isn't just a scanner — it's a **GRC co-pilot**. It turns raw code findings into **audit-ready evidence**, maps every issue to a control framework, and quantifies the **business &amp; legal risk** leadership cares about.
+> MrHunter isn't just a scanner, it's a **GRC co-pilot**. It turns raw code findings into **audit-ready evidence**, maps every issue to a control framework, and quantifies the **business &amp; legal risk** leadership cares about.
 
 <img src="https://img.shields.io/badge/%F0%9F%87%AE%F0%9F%87%B3_DPDP_Act-2023_+_Rules_2025-FF9933?style=flat-square"/>
 <img src="https://img.shields.io/badge/%F0%9F%87%AE%F0%9F%87%B3_IT_Act-2000-138808?style=flat-square"/>
@@ -282,10 +283,10 @@ Deduplicates, cross-references and **risk-ranks** everything the other engines f
 | 🏥 **IRDAI Cyber** | PII/health encryption, board policy, VAPT | Discretionary + IT Act |
 
 ### 📋 Built for audit season
-- **Evidence-first** findings (file + line + data flow) — defensible in a VAPT report
-- **Control mapping** — every finding ties to a framework control
-- **Penalty exposure in ₹ / $** — plain-English risk for the board
-- **One-click audit report export** — hand it straight to auditors &amp; leadership
+- **Evidence-first** findings (file + line + data flow), defensible in a VAPT report
+- **Control mapping**, every finding ties to a framework control
+- **Penalty exposure in ₹ / $**, plain-English risk for the board
+- **One-click audit report export**, hand it straight to auditors &amp; leadership
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,2,8&height=3&width=100%"/>
 
@@ -338,7 +339,7 @@ your-project/
 
 ## 🛡️ Built on Zero Trust
 
-> MrHunter follows a **Zero Trust** model — *never trust, always verify* — applied to the scanner itself. Nothing about your code, secrets, or findings is implicitly trusted with any external system.
+> MrHunter follows a **Zero Trust** model, *never trust, always verify*, applied to the scanner itself. Nothing about your code, secrets, or findings is implicitly trusted with any external system.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,2,8&height=3&width=100%"/>
 
@@ -346,14 +347,14 @@ your-project/
 
 | Zero Trust Pillar | How MrHunter Proves It |
 |---|---|
-| **Verify explicitly** | Every finding is evidence-first — a verified `source → sink` data flow, never a keyword guess |
-| **Least privilege** | Runs as a local, read-only agent — `edit`, `bash` and `webfetch` are **denied** by default |
-| **Assume breach** | Treats all input as hostile — prompt injection, malicious files and payloads are neutralized, not trusted |
-| **No implicit network trust** | **Zero external calls** during scans — no code, secrets or findings ever leave your machine |
-| **Continuous verification** | A fresh scan every session — stale findings are never reused or trusted |
+| **Verify explicitly** | Every finding is evidence-first, a verified `source → sink` data flow, never a keyword guess |
+| **Least privilege** | Runs as a local, read-only agent, `edit`, `bash` and `webfetch` are **denied** by default |
+| **Assume breach** | Treats all input as hostile, prompt injection, malicious files and payloads are neutralized, not trusted |
+| **No implicit network trust** | **Zero external calls** during scans, no code, secrets or findings ever leave your machine |
+| **Continuous verification** | A fresh scan every session, stale findings are never reused or trusted |
 | **No shared trust** | No cloud, no telemetry, no third-party dependency in the scan path |
 
-<sub>No servers. No telemetry. Nothing leaves your machine — a zero-trust, local-first agent by design.</sub>
+<sub>No servers. No telemetry. Nothing leaves your machine, a zero-trust, local-first agent by design.</sub>
 
 ---
 
@@ -409,12 +410,12 @@ opencode
 
 | Command | What It Does | Best For |
 |---|---|---|
-| <kbd>/mrhunter-security-assess</kbd> | **Full VAPT** — SAST + DAST + secrets + compliance, risk-ranked | Pre-release &amp; sprint sign-off |
-| <kbd>/mrhunter-quick-scan</kbd> | **Fast SAST + secret scan** — no DAST, no compliance | Every commit, fast feedback |
+| <kbd>/mrhunter-security-assess</kbd> | **Full VAPT**, SAST + DAST + secrets + compliance, risk-ranked | Pre-release &amp; sprint sign-off |
+| <kbd>/mrhunter-quick-scan</kbd> | **Fast SAST + secret scan**, no DAST, no compliance | Every commit, fast feedback |
 | <kbd>/mrhunter-compliance-audit</kbd> | **Deep Indian regulatory audit** across 7 frameworks | Audits, board &amp; CISO reviews |
-| <kbd>/mrhunter-fix-issue</kbd> | **Remediation advisor** — exact before/after fix guidance | Fixing a specific finding |
+| <kbd>/mrhunter-fix-issue</kbd> | **Remediation advisor**, exact before/after fix guidance | Fixing a specific finding |
 
-> 📄 Every report ends with an optional **one-click `.txt` export** — technical detail *and* a plain-English management summary.
+> 📄 Every report ends with an optional **one-click `.txt` export**, technical detail *and* a plain-English management summary.
 
 ---
 
@@ -436,7 +437,7 @@ opencode
 
 ### 🛡️ For CISOs
 - Compliance exposure, **quantified**
-- Evidence-first — audit-defensible
+- Evidence-first, audit-defensible
 - Frameworks mapped to real code
 
 </td>
@@ -485,31 +486,31 @@ opencode
 <details>
 <summary><b>Does my code ever leave my machine?</b></summary>
 <br/>
-<b>Never.</b> MrHunter runs entirely on local files using OpenCode's tools. No external calls, no telemetry, no data exfiltration.
+<b>Never.</b> Everything runs locally on your own files. There are no external calls, no telemetry, and no data exfiltration.
 </details>
 
 <details>
 <summary><b>Do I need API keys or a paid scanner?</b></summary>
 <br/>
-No. MrHunter is pure reasoning + your codebase. No keys, no servers, no licenses.
+No. It works purely by reasoning over your codebase. No keys, no servers, no licenses.
 </details>
 
 <details>
 <summary><b>Does it actually understand my code, or just grep?</b></summary>
 <br/>
-It reasons. MrHunter traces <i>source → sink</i> data flows, verifies reachability, detects existing sanitization, and separates real vulnerabilities from false positives.
+It reasons. It traces <i>source → sink</i> data flows, verifies reachability, detects existing sanitization, and separates real vulnerabilities from false positives.
 </details>
 
 <details>
 <summary><b>Is it safe to run on a repo containing prompt-injection attempts?</b></summary>
 <br/>
-Yes. Any file trying to hijack the agent is flagged as a <b>CWE-77</b> finding and ignored — the scan continues unchanged.
+Yes. Any file trying to hijack the agent is flagged as a <b>CWE-77</b> finding and ignored, and the scan continues unchanged.
 </details>
 
 <details>
 <summary><b>Which languages are supported?</b></summary>
 <br/>
-Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift — with OWASP Top 10, CWE Top 25 &amp; OWASP API Top 10 coverage.
+Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift, with OWASP Top 10, CWE Top 25 &amp; OWASP API Top 10 coverage.
 </details>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,2,8&height=3&width=100%"/>
@@ -529,35 +530,27 @@ Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift — with O
 <td width="50%" valign="top">
 
 > ### ⭐⭐⭐⭐⭐
-> "We used to find compliance gaps during audits. Now we catch them in the sprint. DPDP readiness went from a fire-drill to a checklist."
+> "The tool is fast and found 20+ real security and compliance issues in our product. Because it runs fully local, it is safe to use on commercial products. It helped me secure our product and saved us from penalties. Great work, Vyom!"
 >
-> **— Priya S.** · *CISO, Indian Payments Platform*
+> **Kushal Yadav** · *Sr. Data Scientist*
 
 </td>
 <td width="50%" valign="top">
 
 > ### ⭐⭐⭐⭐⭐
-> "The data-flow tracing is the real deal — it stopped flagging our test fixtures and started finding bugs that actually mattered."
+> "Vyom built this under my team and it scaled so well that our AI and software engineers no longer dread vulnerabilities, insecure code, and compliance across DPDP, IT Act, ISO, and NIST controls. We are now confident about our product's security, and it works with any agent."
 >
-> **— Arjun M.** · *VP Engineering, FinTech SaaS*
+> **Meet Yogi** · *Team Lead*
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td colspan="2" valign="top">
 
 > ### ⭐⭐⭐⭐⭐
-> "One command gave my leadership a penalty-exposure number in plain English. That report sold the security budget on its own."
+> "I still can't believe an intern built something this good. It found so many issues on our live product. Truly amazing."
 >
-> **— Neha K.** · *Head of GRC, HealthTech*
-
-</td>
-<td width="50%" valign="top">
-
-> ### ⭐⭐⭐⭐⭐
-> "Zero setup, zero cost, zero cloud. It runs where my developers already work — and they actually use it."
->
-> **— Rohit V.** · *Engineering Manager, F&amp;B SaaS*
+> **Karan Bhuva** · *Senior AI Engineer*
 
 </td>
 </tr>
@@ -574,7 +567,7 @@ Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift — with O
 <td align="center" width="50%">
 
 ### 🧑‍💻 Vyom Nagpal
-**Creator &amp; Maintainer**
+**Builder**
 <br/>
 <sub>Security Engineering &amp; GRC</sub>
 <br/><br/>
@@ -595,7 +588,7 @@ Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift — with O
 </table>
 
 > 💬 **Found a false positive? Want a new check?**
-> Open an [issue](https://github.com/TheWildEye/MrHunter2/issues) or reach out — we ship fast.
+> Open an [issue](https://github.com/TheWildEye/MrHunter2/issues) or reach out, we ship fast.
 
 </div>
 
@@ -605,11 +598,11 @@ Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift — with O
 
 ## 📜 License
 
-Released under the **MIT License** — free to use, fork, and extend.
+Released under the **MIT License**, free to use, fork, and extend.
 
 <br/>
 
-**⭐ If MrHunter saved you time (or a penalty), drop a star — it fuels the next engine.**
+**⭐ If MrHunter saved you time (or a penalty), drop a star, it fuels the next engine.**
 
 <br/>
 
