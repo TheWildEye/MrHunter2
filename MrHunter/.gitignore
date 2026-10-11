@@ -24,6 +24,3 @@ __pycache__/
 dist/
 build/
 .cache/
-
-# Local overrides
-local_settings.json
