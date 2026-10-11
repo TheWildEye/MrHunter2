@@ -46,7 +46,7 @@
 ## 🎬 See It In Action
 
 <a href="#-quick-start">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=1600&pause=450&color=00FF9C&background=0D1117&center=true&vCenter=true&width=860&height=260&lines=%24+mrhunter-quick-scan;%E2%96%B8+Recon%3A+2%2C847+files+%C2%B7+8+languages+detected;%E2%96%B8+SAST+%2B+DAST+%2B+Secrets+engines+online...;%F0%9F%94%B4+CRITICAL+%C2%B7+SQL+Injection+%2D+api%2Fusers.py%3A42;%F0%9F%9F%A0+HIGH+%C2%B7+Hardcoded+AWS+key+%2D+config.py%3A11;%F0%9F%9F%A1+MEDIUM+%C2%B7+Open+CORS+%2D+server.js%3A19;%E2%9C%94+Report+ready+%2D+proven%2C+ranked%2C+exported" alt="live scan demo"/>
+<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/terminal-demo.svg" alt="live MrHunter scan" width="100%"/>
 </a>
 
 <sub>⬆️ a live MrHunter scan, from one command to a board-ready verdict in seconds</sub>
@@ -362,50 +362,33 @@ your-project/
 
 ## ⚡ Quick Start
 
-> **60 seconds from clone to your first scan. No `npm install`. No `pip install`. No API keys.**
+> **One command. No `npm install`. No `pip install`. No API keys.**
 
 ### 🅰️ Install in one project
 
 **macOS / Linux**
 ```bash
-git clone --depth 1 https://github.com/TheWildEye/MrHunter2.git _mrhunter && \
-cp -r _mrhunter/MrHunter/.opencode ./ && \
-cp _mrhunter/MrHunter/opencode.json _mrhunter/MrHunter/AGENTS.md ./ && \
-rm -rf _mrhunter
+curl -fsSL https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/install.sh | bash
 ```
 
 **Windows (PowerShell)**
 ```powershell
-git clone --depth 1 https://github.com/TheWildEye/MrHunter2.git _mrhunter
-Copy-Item -Recurse _mrhunter/MrHunter/.opencode ./
-Copy-Item _mrhunter/MrHunter/opencode.json, _mrhunter/MrHunter/AGENTS.md ./
-Remove-Item -Recurse -Force _mrhunter
+irm https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/install.ps1 | iex
 ```
 
 ### 🅱️ Install globally (works in every project)
 
 **macOS / Linux**
 ```bash
-git clone --depth 1 https://github.com/TheWildEye/MrHunter2.git _mrhunter && \
-mkdir -p ~/.config/opencode/agent ~/.config/opencode/command ~/.config/opencode/skill && \
-cp -r _mrhunter/MrHunter/.opencode/agents/.   ~/.config/opencode/agent/ && \
-cp -r _mrhunter/MrHunter/.opencode/commands/. ~/.config/opencode/command/ && \
-cp -r _mrhunter/MrHunter/.opencode/skills/.   ~/.config/opencode/skill/ && \
-rm -rf _mrhunter
+curl -fsSL https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/install.sh | bash -s -- --global
 ```
 
 **Windows (PowerShell)**
 ```powershell
-git clone --depth 1 https://github.com/TheWildEye/MrHunter2.git _mrhunter
-$dest = "$HOME/.config/opencode"
-New-Item -ItemType Directory -Force -Path "$dest/agent","$dest/command","$dest/skill" | Out-Null
-Copy-Item -Recurse -Force _mrhunter/MrHunter/.opencode/agents/*   "$dest/agent/"
-Copy-Item -Recurse -Force _mrhunter/MrHunter/.opencode/commands/* "$dest/command/"
-Copy-Item -Recurse -Force _mrhunter/MrHunter/.opencode/skills/*   "$dest/skill/"
-Remove-Item -Recurse -Force _mrhunter
+& ([scriptblock]::Create((irm https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/install.ps1))) -Global
 ```
 
-> 💡 To register the subagents globally, merge the `agent` block from `MrHunter/opencode.json` into `~/.config/opencode/opencode.json`.
+> 💡 Global install copies agents, commands and skills into `~/.config/opencode`. Merge the `agent` block from `MrHunter/opencode.json` into `~/.config/opencode/opencode.json` to register the subagents.
 
 ### ▶️ Run your first scan
 
@@ -544,25 +527,11 @@ Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift, with OWAS
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,2,8&height=130&text=Wall%20of%20Love&fontSize=44&fontColor=FFFFFF&animation=twinkling" width="100%"/>
+## 💬 Wall of Love
+
+<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/wall-of-love.svg" alt="What people say about MrHunter" width="100%"/>
 
 </div>
-
-> 🧑‍💻 **Kushal** · *Data Scientist*
->
-> Used this in my daily work. It did the work of 2 people, and I got a hike.
-
-> 🧑‍💻 **Meet** · *Team Lead*
->
-> Vyom built this in my team and it scaled up so well. We were having a nightmare with so many issues, now we are fully confident about our security. Proud of you Vyom.
-
-> 🧑‍💻 **Karan** · *Senior AI Engineer*
->
-> Subah subah kaam badha deta hai ye tool. Just kidding, great work Vyom!
-
-> 🧑‍💻 **Chintan** · *Team Lead, Operations*
->
-> How are you finding so many vulnerabilities Vyom, give us some time to fix them haha!
 
 ---
 
@@ -580,7 +549,7 @@ Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift, with OWAS
 <sub>Security Engineering &amp; GRC</sub>
 <br/><br/>
 <a href="mailto:vyomnagpal7@gmail.com"><img src="https://img.shields.io/badge/Email-vyomnagpal7@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://www.linkedin.com/in/vyomnagpal"><img src="https://img.shields.io/badge/LinkedIn-vyomnagpal-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/vyomnagpal"><img src="https://img.shields.io/badge/LinkedIn-vyomnagpal-0A66C2?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYTIuMDYyIDIuMDYyIDAgMDEtMi4wNjMtMi4wNjUgMi4wNjQgMi4wNjQgMCAxMTIuMDYzIDIuMDY1em0xLjc4MiAxMy4wMTlIMy41NTVWOWgzLjU2NHYxMS40NTJ6TTIyLjIyNSAwSDEuNzcxQy43OTIgMCAwIC43NzQgMCAxLjcyOXYyMC41NDJDMCAyMy4yMjcuNzkyIDI0IDEuNzcxIDI0aDIwLjQ1MUMyMy4yIDI0IDI0IDIzLjIyNyAyNCAyMi4yNzFWMS43MjlDMjQgLjc3NCAyMy4yIDAgMjIuMjIyIDBoLjAwM3oiLz48L3N2Zz4%3D&logoColor=white"/></a>
 
 </td>
 <td align="center" width="50%">
@@ -590,7 +559,7 @@ Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift, with OWAS
 <br/>
 <sub>Data Science @ Petpooja</sub>
 <br/><br/>
-<a href="https://www.linkedin.com/in/sahil-patel1815/"><img src="https://img.shields.io/badge/LinkedIn-sahil--patel1815-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/sahil-patel1815/"><img src="https://img.shields.io/badge/LinkedIn-sahil--patel1815-0A66C2?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYTIuMDYyIDIuMDYyIDAgMDEtMi4wNjMtMi4wNjUgMi4wNjQgMi4wNjQgMCAxMTIuMDYzIDIuMDY1em0xLjc4MiAxMy4wMTlIMy41NTVWOWgzLjU2NHYxMS40NTJ6TTIyLjIyNSAwSDEuNzcxQy43OTIgMCAwIC43NzQgMCAxLjcyOXYyMC41NDJDMCAyMy4yMjcuNzkyIDI0IDEuNzcxIDI0aDIwLjQ1MUMyMy4yIDI0IDI0IDIzLjIyNyAyNCAyMi4yNzFWMS43MjlDMjQgLjc3NCAyMy4yIDAgMjIuMjIyIDBoLjAwM3oiLz48L3N2Zz4%3D&logoColor=white"/></a>
 
 </td>
 </tr>
