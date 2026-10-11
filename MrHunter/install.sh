@@ -38,16 +38,16 @@ git clone --depth 1 --branch "$BRANCH" "$REPO_URL" "$TMP_DIR" >/dev/null 2>&1
 if [ "$GLOBAL" = true ]; then
   DEST="$HOME/.config/opencode"
   mkdir -p "$DEST/agent" "$DEST/command" "$DEST/skill"
-  cp -R "$TMP_DIR/.opencode/agents/."   "$DEST/agent/"
-  cp -R "$TMP_DIR/.opencode/commands/." "$DEST/command/"
-  cp -R "$TMP_DIR/.opencode/skills/."   "$DEST/skill/"
+  cp -R "$TMP_DIR/MrHunter/.opencode/agents/."   "$DEST/agent/"
+  cp -R "$TMP_DIR/MrHunter/.opencode/commands/." "$DEST/command/"
+  cp -R "$TMP_DIR/MrHunter/.opencode/skills/."   "$DEST/skill/"
   echo "Installed agents, commands, and skills to $DEST"
-  echo "NOTE: merge the \"agent\" block from $TMP_DIR/opencode.json into $DEST/opencode.json"
+  echo "NOTE: merge the \"agent\" block from $TMP_DIR/MrHunter/opencode.json into $DEST/opencode.json"
 else
   mkdir -p "./.opencode"
-  cp -R "$TMP_DIR/.opencode/." "./.opencode/"
-  [ -f "./opencode.json" ] || cp "$TMP_DIR/opencode.json" "./opencode.json"
-  [ -f "./AGENTS.md" ] || cp "$TMP_DIR/AGENTS.md" "./AGENTS.md"
+  cp -R "$TMP_DIR/MrHunter/.opencode/." "./.opencode/"
+  [ -f "./opencode.json" ] || cp "$TMP_DIR/MrHunter/opencode.json" "./opencode.json"
+  [ -f "./AGENTS.md" ] || cp "$TMP_DIR/MrHunter/AGENTS.md" "./AGENTS.md"
   echo "Installed OpenCode plugin into ./.opencode/"
 fi
 

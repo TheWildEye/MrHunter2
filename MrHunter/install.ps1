@@ -37,17 +37,17 @@ git clone --depth 1 --branch $Branch $RepoUrl $TmpDir | Out-Null
 if ($Global) {
     $Dest = Join-Path $HOME ".config/opencode"
     New-Item -ItemType Directory -Force -Path "$Dest/agent", "$Dest/command", "$Dest/skill" | Out-Null
-    Copy-Item -Recurse -Force "$TmpDir/.opencode/agents/*"   "$Dest/agent/"
-    Copy-Item -Recurse -Force "$TmpDir/.opencode/commands/*" "$Dest/command/"
-    Copy-Item -Recurse -Force "$TmpDir/.opencode/skills/*"   "$Dest/skill/"
+    Copy-Item -Recurse -Force "$TmpDir/MrHunter/.opencode/agents/*"   "$Dest/agent/"
+    Copy-Item -Recurse -Force "$TmpDir/MrHunter/.opencode/commands/*" "$Dest/command/"
+    Copy-Item -Recurse -Force "$TmpDir/MrHunter/.opencode/skills/*"   "$Dest/skill/"
     Write-Host "Installed agents, commands, and skills to $Dest"
-    Write-Host "NOTE: merge the 'agent' block from $TmpDir/opencode.json into $Dest/opencode.json"
+    Write-Host "NOTE: merge the 'agent' block from $TmpDir/MrHunter/opencode.json into $Dest/opencode.json"
 }
 else {
     New-Item -ItemType Directory -Force -Path "./.opencode" | Out-Null
-    Copy-Item -Recurse -Force "$TmpDir/.opencode/*" "./.opencode/"
-    if (-not (Test-Path "./opencode.json")) { Copy-Item "$TmpDir/opencode.json" "./opencode.json" }
-    if (-not (Test-Path "./AGENTS.md"))     { Copy-Item "$TmpDir/AGENTS.md"     "./AGENTS.md" }
+    Copy-Item -Recurse -Force "$TmpDir/MrHunter/.opencode/*" "./.opencode/"
+    if (-not (Test-Path "./opencode.json")) { Copy-Item "$TmpDir/MrHunter/opencode.json" "./opencode.json" }
+    if (-not (Test-Path "./AGENTS.md"))     { Copy-Item "$TmpDir/MrHunter/AGENTS.md"     "./AGENTS.md" }
     Write-Host "Installed OpenCode plugin into ./.opencode/"
 }
 
