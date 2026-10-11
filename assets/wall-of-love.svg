@@ -1,54 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="486" viewBox="0 0 900 486" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" font-family="'Courier New',Consolas,monospace">
   <defs>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#f6f8fa"/>
+    <linearGradient id="wbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#04070b"/>
+      <stop offset="1" stop-color="#0a121a"/>
     </linearGradient>
   </defs>
-  <rect x="1" y="1" width="898" height="484" rx="18" fill="url(#panel)" stroke="#d0d7de"/>
 
-  <!-- Kushal -->
+  <rect x="1" y="1" width="998" height="598" rx="14" fill="url(#wbg)" stroke="#0e3a24"/>
+
+  <!-- terminal title bar -->
+  <rect x="1" y="1" width="998" height="44" rx="14" fill="#0b1118"/>
+  <rect x="1" y="30" width="998" height="15" fill="#0b1118"/>
+  <circle cx="30" cy="23" r="6" fill="#ff5f56"/>
+  <circle cx="52" cy="23" r="6" fill="#ffbd2e"/>
+  <circle cx="74" cy="23" r="6" fill="#27c93f"/>
+  <text x="500" y="28" fill="#2fd968" font-size="13" text-anchor="middle">security-team — #wall-of-love</text>
+  <line x1="1" y1="45" x2="999" y2="45" stroke="#0e3a24"/>
+
+  <!-- msg 1 -->
   <g opacity="0">
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.06;0.92;1" dur="12s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="translate" values="0 26;0 0;0 0;0 26" keyTimes="0;0.06;0.92;1" dur="12s" repeatCount="indefinite"/>
-    <circle cx="46" cy="54" r="21" fill="#0969da"/>
-    <text x="46" y="60" fill="#ffffff" font-size="18" font-weight="700" text-anchor="middle">K</text>
-    <rect x="84" y="18" width="792" height="72" rx="14" fill="#f6f8fa" stroke="#d0d7de"/>
-    <text x="106" y="46" fill="#0969da" font-size="15" font-weight="700">Kushal &#183; Data Scientist</text>
-    <text x="106" y="72" fill="#24292f" font-size="15">Used this in my daily work. It did the work of 2 people, and I got a hike.</text>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.06;0.92;1" dur="13s" repeatCount="indefinite"/>
+    <text x="36" y="90" fill="#00ff41" font-size="16" font-weight="bold">kushal@data-science</text>
+    <text x="36" y="118" fill="#c9d1d9" font-size="15">Ran it once &#8594; 20+ real issues. Did 2 people's job. Got a hike.</text>
+    <text x="36" y="142" fill="#1f9d55" font-size="14">&#8220;It works on my machine&#8221; &#8212; now it's secure on prod too.</text>
   </g>
 
-  <!-- Meet -->
+  <!-- msg 2 -->
   <g opacity="0">
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.14;0.92;1" dur="12s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="translate" values="0 26;0 0;0 0;0 26" keyTimes="0;0.14;0.92;1" dur="12s" repeatCount="indefinite"/>
-    <circle cx="46" cy="162" r="21" fill="#8250df"/>
-    <text x="46" y="168" fill="#ffffff" font-size="18" font-weight="700" text-anchor="middle">M</text>
-    <rect x="84" y="126" width="792" height="96" rx="14" fill="#f6f8fa" stroke="#d0d7de"/>
-    <text x="106" y="154" fill="#8250df" font-size="15" font-weight="700">Meet &#183; Team Lead</text>
-    <text x="106" y="180" fill="#24292f" font-size="15">Vyom built this in my team and it scaled up so well. We were having a nightmare</text>
-    <text x="106" y="204" fill="#24292f" font-size="15">with so many issues, now we are fully confident about our security. Proud of you Vyom.</text>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.14;0.92;1" dur="13s" repeatCount="indefinite"/>
+    <text x="36" y="200" fill="#00ff41" font-size="16" font-weight="bold">meet@team-lead</text>
+    <text x="36" y="228" fill="#c9d1d9" font-size="15">We used to have compliance nightmares. Now we shift-left so hard the audit is boring.</text>
+    <text x="36" y="252" fill="#1f9d55" font-size="14">DPDP &#183; ISO &#183; NIST all green. No more &#8220;we'll fix it in prod&#8221;.</text>
   </g>
 
-  <!-- Karan -->
+  <!-- msg 3 -->
   <g opacity="0">
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.22;0.92;1" dur="12s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="translate" values="0 26;0 0;0 0;0 26" keyTimes="0;0.22;0.92;1" dur="12s" repeatCount="indefinite"/>
-    <circle cx="46" cy="292" r="21" fill="#1a7f37"/>
-    <text x="46" y="298" fill="#ffffff" font-size="18" font-weight="700" text-anchor="middle">K</text>
-    <rect x="84" y="256" width="792" height="72" rx="14" fill="#f6f8fa" stroke="#d0d7de"/>
-    <text x="106" y="284" fill="#1a7f37" font-size="15" font-weight="700">Karan &#183; Senior AI Engineer</text>
-    <text x="106" y="310" fill="#24292f" font-size="15">Subah subah kaam badha deta hai ye tool. Just kidding, great work Vyom!</text>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.22;0.92;1" dur="13s" repeatCount="indefinite"/>
+    <text x="36" y="310" fill="#00ff41" font-size="16" font-weight="bold">karan@ai-engineer</text>
+    <text x="36" y="338" fill="#c9d1d9" font-size="15">Subah subah kaam badha deta hai ye tool. Just kidding, great work Vyom.</text>
   </g>
 
-  <!-- Chintan -->
+  <!-- msg 4 -->
   <g opacity="0">
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.30;0.92;1" dur="12s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="translate" values="0 26;0 0;0 0;0 26" keyTimes="0;0.30;0.92;1" dur="12s" repeatCount="indefinite"/>
-    <circle cx="46" cy="422" r="21" fill="#bf3989"/>
-    <text x="46" y="428" fill="#ffffff" font-size="18" font-weight="700" text-anchor="middle">C</text>
-    <rect x="84" y="386" width="792" height="72" rx="14" fill="#f6f8fa" stroke="#d0d7de"/>
-    <text x="106" y="414" fill="#bf3989" font-size="15" font-weight="700">Chintan &#183; Team Lead, Operations</text>
-    <text x="106" y="440" fill="#24292f" font-size="15">How are you finding so many vulnerabilities Vyom, give us some time to fix them haha!</text>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.30;0.92;1" dur="13s" repeatCount="indefinite"/>
+    <text x="36" y="396" fill="#00ff41" font-size="16" font-weight="bold">chintan@operations</text>
+    <text x="36" y="424" fill="#c9d1d9" font-size="15">How are you finding so many vulnerabilities? Give us some time to fix them haha.</text>
+    <text x="36" y="448" fill="#1f9d55" font-size="14">Security is a feature, not a bug.</text>
   </g>
+
+  <!-- prompt -->
+  <text x="36" y="530" fill="#00ff41" font-size="16" font-weight="bold">&#10148; 0 open criticals
+    <animate attributeName="opacity" values="1;1;0.5;1" dur="2s" repeatCount="indefinite"/>
+  </text>
+  <text x="36" y="560" fill="#7d8590" font-size="14"># have you tried turning it off and on again? (we did the secure version)</text>
 </svg>

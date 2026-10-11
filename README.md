@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ══════════════════════ ANIMATED HEADER ══════════════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,2,8&height=230&section=header&text=MrHunter&fontSize=95&fontColor=FFFFFF&animation=fadeIn&fontAlignY=32&desc=AI-Powered%20Security%20and%20Compliance%20Agent&descAlignY=55&descSize=22&descAlign=50" width="100%" alt="MrHunter"/>
+<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/header-hacker.svg" width="100%" alt="MrHunter"/>
 
 <!-- ══════════════════════ TYPING ANIMATION ══════════════════════ -->
 <a href="#-quick-start">
@@ -13,6 +13,7 @@
 <!-- ══════════════════════ BADGES ══════════════════════ -->
 <img src="https://img.shields.io/badge/version-2.1.0-22D3EE?style=for-the-badge&labelColor=0f2027"/>
 <img src="https://img.shields.io/badge/built%20for-OpenCode-7C3AED?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/dependencies-0-22C55E?style=for-the-badge&labelColor=0f2027"/>
 <img src="https://img.shields.io/badge/OWASP-Top%2010-E11D48?style=for-the-badge&labelColor=0f2027"/>
 <img src="https://img.shields.io/badge/CWE-Top%2025-F59E0B?style=for-the-badge&labelColor=0f2027"/>
 <br/>
@@ -35,7 +36,7 @@
 > ### 🛡️ The security & compliance brain that lives inside your editor.
 > **No servers. No API keys. No cloud. No noise.** Just open your project, type a command, and get a board-ready security and compliance verdict in seconds.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,2,8&height=3&width=100%"/>
+<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/divider.svg" width="100%"/>
 
 </div>
 
@@ -51,7 +52,7 @@
 
 <sub>⬆️ a live MrHunter scan, from one command to a board-ready verdict in seconds</sub>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,2,8&height=3&width=100%"/>
+<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/divider.svg" width="100%"/>
 
 </div>
 
@@ -101,7 +102,7 @@
 <img src="https://img.shields.io/badge/%F0%9F%8E%93_EdTech-2962FF?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/%F0%9F%9A%9A_Logistics-455A64?style=for-the-badge"/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,2,8&height=3&width=100%"/>
+<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/divider.svg" width="100%"/>
 
 </div>
 
@@ -148,7 +149,7 @@
 
 > **Five specialized AI engines. One command. A complete security posture.**
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,2,8&height=3&width=100%"/>
+<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/divider.svg" width="100%"/>
 
 </div>
 
@@ -214,7 +215,7 @@ Deduplicates, cross-references and **risk-ranks** everything the other engines f
 
 > **MrHunter is agent-agnostic.** It's a portable security &amp; compliance brain you can drop into **any** AI coding agent you already use, no lock-in, no new tool to learn.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,2,8&height=3&width=100%"/>
+<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/divider.svg" width="100%"/>
 
 </div>
 
@@ -288,7 +289,7 @@ Deduplicates, cross-references and **risk-ranks** everything the other engines f
 - **Penalty exposure in ₹ / $**, plain-English risk for the board
 - **One-click audit report export**, hand it straight to auditors &amp; leadership
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,2,8&height=3&width=100%"/>
+<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/divider.svg" width="100%"/>
 
 </div>
 
@@ -341,7 +342,7 @@ your-project/
 
 > MrHunter follows a **Zero Trust** model, *never trust, always verify*, applied to the scanner itself. Nothing about your code, secrets, or findings is implicitly trusted with any external system.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,2,8&height=3&width=100%"/>
+<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/divider.svg" width="100%"/>
 
 </div>
 
@@ -363,6 +364,16 @@ your-project/
 ## ⚡ Quick Start
 
 > **One command. No `npm install`. No `pip install`. No API keys.**
+
+### ✅ Requirements
+
+- **[OpenCode](https://opencode.ai)** — the AI coding agent this plugin runs inside
+  ```bash
+  curl -fsSL https://opencode.ai/v2/install | bash
+  ```
+- **Git** — used by the installer to fetch the plugin
+
+That's it. **No Python, no Node, no Docker, no database, no API keys.**
 
 ### 🅰️ Install in one project
 
@@ -390,6 +401,28 @@ curl -fsSL https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/install.s
 
 > 💡 Global install copies agents, commands and skills into `~/.config/opencode`. Merge the `agent` block from `MrHunter/opencode.json` into `~/.config/opencode/opencode.json` to register the subagents.
 
+<details>
+<summary>📦 Prefer to install manually (no script)?</summary>
+<br/>
+
+**macOS / Linux**
+```bash
+git clone --depth 1 https://github.com/TheWildEye/MrHunter2.git _mrhunter
+cp -r _mrhunter/MrHunter/.opencode ./
+cp _mrhunter/MrHunter/opencode.json _mrhunter/MrHunter/AGENTS.md ./
+rm -rf _mrhunter
+```
+
+**Windows (PowerShell)**
+```powershell
+git clone --depth 1 https://github.com/TheWildEye/MrHunter2.git _mrhunter
+Copy-Item -Recurse _mrhunter/MrHunter/.opencode ./
+Copy-Item _mrhunter/MrHunter/opencode.json, _mrhunter/MrHunter/AGENTS.md ./
+Remove-Item -Recurse -Force _mrhunter
+```
+
+</details>
+
 ### ▶️ Run your first scan
 
 ```bash
@@ -402,7 +435,7 @@ opencode
 
 > 🎉 That's it. **No background services. Nothing leaves your machine.**
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,2,8&height=3&width=100%"/>
+<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/divider.svg" width="100%"/>
 
 </div>
 
@@ -458,7 +491,7 @@ opencode
 </tr>
 </table>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,2,8&height=3&width=100%"/>
+<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/divider.svg" width="100%"/>
 
 </div>
 
@@ -479,7 +512,7 @@ opencode
 | Cost | 💸 Licenses | 🆓 Zero |
 | Runs inside your editor | ❌ | ✅ |
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,2,8&height=3&width=100%"/>
+<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/divider.svg" width="100%"/>
 
 </div>
 
@@ -502,6 +535,12 @@ No. It works purely by reasoning over your codebase. No keys, no servers, no lic
 </details>
 
 <details>
+<summary><b>What do I need to run it?</b></summary>
+<br/>
+Just an AI coding agent (like OpenCode) and Git. No Python, Node, Docker, database, or other dependencies.
+</details>
+
+<details>
 <summary><b>Does it actually understand my code, or just grep?</b></summary>
 <br/>
 It reasons. It traces <i>source → sink</i> data flows, verifies reachability, detects existing sanitization, and separates real vulnerabilities from false positives.
@@ -519,7 +558,7 @@ Yes. Any file trying to hijack the agent is flagged as a <b>CWE-77</b> finding a
 Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift, with OWASP Top 10, CWE Top 25 &amp; OWASP API Top 10 coverage.
 </details>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,2,8&height=3&width=100%"/>
+<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/divider.svg" width="100%"/>
 
 </div>
 
@@ -550,7 +589,7 @@ Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift, with OWAS
 <br/><br/>
 <a href="mailto:vyomnagpal7@gmail.com"><img src="https://img.shields.io/badge/Email-vyomnagpal7@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 <br/>
-<a href="https://www.linkedin.com/in/vyomnagpal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="28" alt="LinkedIn"/> <img src="https://img.shields.io/badge/-vyomnagpal-0A66C2?style=for-the-badge"/></a>
+<a href="https://www.linkedin.com/in/vyomnagpal"><img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/badge-linkedin-vyomnagpal.svg" alt="LinkedIn"/></a>
 
 </td>
 <td align="center" width="50%">
@@ -560,7 +599,7 @@ Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift, with OWAS
 <br/>
 <sub>Data Science @ Petpooja</sub>
 <br/><br/>
-<a href="https://www.linkedin.com/in/sahil-patel1815/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="28" alt="LinkedIn"/> <img src="https://img.shields.io/badge/-sahil--patel1815-0A66C2?style=for-the-badge"/></a>
+<a href="https://www.linkedin.com/in/sahil-patel1815/"><img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/badge-linkedin-sahil-patel1815.svg" alt="LinkedIn"/></a>
 
 </td>
 </tr>
@@ -585,7 +624,7 @@ Released under the **MIT License**, free to use, fork, and extend.
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,2,8&height=140&section=footer" width="100%"/>
+<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/footer-hacker.svg" width="100%"/>
 
 <sub>Built with 🔐 by the MrHunter team · Find it. Prove it. Fix it. Ship it.</sub>
 

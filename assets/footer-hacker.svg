@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="170" viewBox="0 0 1280 170" font-family="'Courier New',Consolas,monospace">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a121a"/>
+      <stop offset="1" stop-color="#04070b"/>
+    </linearGradient>
+    <linearGradient id="fwave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00c853"/>
+      <stop offset="0.5" stop-color="#00ff9c"/>
+      <stop offset="1" stop-color="#00ff41"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="170" fill="url(#fbg)"/>
+
+  <path fill="url(#fwave)" opacity="0.9" d="M0,30 Q320,6 640,26 T1280,14 L1280,0 L0,0 Z">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite"
+      values="M0,30 Q320,6 640,26 T1280,14 L1280,0 L0,0 Z;M0,24 Q320,40 640,20 T1280,26 L1280,0 L0,0 Z;M0,32 Q320,10 640,30 T1280,10 L1280,0 L0,0 Z;M0,30 Q320,6 640,26 T1280,14 L1280,0 L0,0 Z"/>
+  </path>
+
+  <text x="640" y="98" fill="#00ff41" font-size="26" text-anchor="middle" letter-spacing="2">Find it. Prove it. Fix it. Ship it.
+    <animate attributeName="opacity" values="1;1;0.6;1;1" keyTimes="0;0.88;0.91;0.94;1" dur="4s" repeatCount="indefinite"/>
+  </text>
+  <text x="640" y="130" fill="#1c6b3e" font-size="14" text-anchor="middle">Built by Vyom Nagpal</text>
+</svg>
