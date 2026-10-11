@@ -530,27 +530,35 @@ Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift, with OWAS
 <td width="50%" valign="top">
 
 > ### ⭐⭐⭐⭐⭐
-> "The tool is fast and found 20+ real security and compliance issues in our product. Because it runs fully local, it is safe to use on commercial products. It helped me secure our product and saved us from penalties. Great work, Vyom!"
+> "Used this in my daily work. It did the work of 2 people, and I got a hike."
 >
-> **Kushal Yadav** · *Sr. Data Scientist*
+> **Kushal** · *Data Scientist*
 
 </td>
 <td width="50%" valign="top">
 
 > ### ⭐⭐⭐⭐⭐
-> "Vyom built this under my team and it scaled so well that our AI and software engineers no longer dread vulnerabilities, insecure code, and compliance across DPDP, IT Act, ISO, and NIST controls. We are now confident about our product's security, and it works with any agent."
+> "Vyom built this in my team and it scaled up so well. We were having a nightmare with so many issues, now we are fully confident about our security. Proud of you Vyom."
 >
-> **Meet Yogi** · *Team Lead*
+> **Meet** · *Team Lead*
 
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top">
 
 > ### ⭐⭐⭐⭐⭐
-> "I still can't believe an intern built something this good. It found so many issues on our live product. Truly amazing."
+> "Subah subah kaam badha deta hai ye tool. Just kidding, great work Vyom!"
 >
-> **Karan Bhuva** · *Senior AI Engineer*
+> **Karan** · *Senior AI Engineer*
+
+</td>
+<td width="50%" valign="top">
+
+> ### ⭐⭐⭐⭐⭐
+> "How are you finding so many vulnerabilities Vyom, give us some time to fix them haha!"
+>
+> **Chintan** · *Team Lead, Operations*
 
 </td>
 </tr>
