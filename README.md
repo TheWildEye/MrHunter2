@@ -252,8 +252,8 @@ Deduplicates, cross-references and **risk-ranks** everything the other engines f
 
 > MrHunter isn't just a scanner, it's a **GRC co-pilot**. It turns raw code findings into **audit-ready evidence**, maps every issue to a control framework, and quantifies the **business &amp; legal risk** leadership cares about.
 
-<img src="https://img.shields.io/badge/%F0%9F%87%AE%F0%9F%87%B3_DPDP_Act-2023_+_Rules_2025-FF9933?style=flat-square"/>
-<img src="https://img.shields.io/badge/%F0%9F%87%AE%F0%9F%87%B3_IT_Act-2000-138808?style=flat-square"/>
+<img src="https://flagcdn.com/16x12/in.png" height="13" alt="IN"/> <img src="https://img.shields.io/badge/DPDP_Act-2023_+_Rules_2025-FF9933?style=flat-square"/>
+<img src="https://flagcdn.com/16x12/in.png" height="13" alt="IN"/> <img src="https://img.shields.io/badge/IT_Act-2000-138808?style=flat-square"/>
 <img src="https://img.shields.io/badge/%F0%9F%92%B3_PCI_DSS-4.0.1-1A1F71?style=flat-square"/>
 <img src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F_CERT--IN-Directions_2022-0B7285?style=flat-square"/>
 <img src="https://img.shields.io/badge/%F0%9F%8F%A6_RBI-Cyber_Resilience_2024-6A1B9A?style=flat-square"/>
@@ -271,11 +271,11 @@ Deduplicates, cross-references and **risk-ranks** everything the other engines f
 | 🔒 **ISO/IEC 27001** | Access control, cryptography, logging &amp; monitoring, secure SDLC (Annex A controls) | Clears enterprise &amp; vendor security questionnaires |
 | 🧭 **NIST SP 800-53** | AC · AU · SC · SI · RA control families | Required for regulated &amp; government procurement |
 
-### 🇮🇳 Indian regulatory frameworks
+### <img src="https://flagcdn.com/24x18/in.png" height="18" alt="IN"/> Indian regulatory frameworks
 | Framework | What MrHunter Checks | Why It Matters |
 |---|---|---|
-| 🇮🇳 **DPDP Act 2023** | Consent, children's data, breach readiness, erasure | Penalties up to **₹250 Cr** |
-| 🇮🇳 **IT Act 2000** | SPDI safeguards, disclosure, confidentiality | Criminal + civil liability |
+| <img src="https://flagcdn.com/16x12/in.png" height="12" alt="IN"/> **DPDP Act 2023** | Consent, children's data, breach readiness, erasure | Penalties up to **₹250 Cr** |
+| <img src="https://flagcdn.com/16x12/in.png" height="12" alt="IN"/> **IT Act 2000** | SPDI safeguards, disclosure, confidentiality | Criminal + civil liability |
 | 💳 **PCI DSS 4.0.1** | PAN/CVV storage, TLS, MFA, logging | Card-brand fines &amp; suspension |
 | 🛡️ **CERT-IN 2022** | 6-hour reporting, 180-day logs, NTP, MFA | Statutory obligation |
 | 🏦 **RBI Cyber 2024** | Device binding, tokenization, rate limits | PSS Act penalties |
@@ -364,7 +364,7 @@ your-project/
 
 > **60 seconds from clone to your first scan. No `npm install`. No `pip install`. No API keys.**
 
-### 1️⃣ Clone the repo into your project
+### 🅰️ Install in one project
 
 **macOS / Linux**
 ```bash
@@ -382,13 +382,36 @@ Copy-Item _mrhunter/MrHunter/opencode.json, _mrhunter/MrHunter/AGENTS.md ./
 Remove-Item -Recurse -Force _mrhunter
 ```
 
-### 2️⃣ Open OpenCode in your project
+### 🅱️ Install globally (works in every project)
+
+**macOS / Linux**
+```bash
+git clone --depth 1 https://github.com/TheWildEye/MrHunter2.git _mrhunter && \
+mkdir -p ~/.config/opencode/agent ~/.config/opencode/command ~/.config/opencode/skill && \
+cp -r _mrhunter/MrHunter/.opencode/agents/.   ~/.config/opencode/agent/ && \
+cp -r _mrhunter/MrHunter/.opencode/commands/. ~/.config/opencode/command/ && \
+cp -r _mrhunter/MrHunter/.opencode/skills/.   ~/.config/opencode/skill/ && \
+rm -rf _mrhunter
+```
+
+**Windows (PowerShell)**
+```powershell
+git clone --depth 1 https://github.com/TheWildEye/MrHunter2.git _mrhunter
+$dest = "$HOME/.config/opencode"
+New-Item -ItemType Directory -Force -Path "$dest/agent","$dest/command","$dest/skill" | Out-Null
+Copy-Item -Recurse -Force _mrhunter/MrHunter/.opencode/agents/*   "$dest/agent/"
+Copy-Item -Recurse -Force _mrhunter/MrHunter/.opencode/commands/* "$dest/command/"
+Copy-Item -Recurse -Force _mrhunter/MrHunter/.opencode/skills/*   "$dest/skill/"
+Remove-Item -Recurse -Force _mrhunter
+```
+
+> 💡 To register the subagents globally, merge the `agent` block from `MrHunter/opencode.json` into `~/.config/opencode/opencode.json`.
+
+### ▶️ Run your first scan
 
 ```bash
 opencode
 ```
-
-### 3️⃣ Fire your first scan
 
 ```
 /mrhunter-quick-scan
@@ -525,44 +548,21 @@ Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift, with OWAS
 
 </div>
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-> ### ⭐⭐⭐⭐⭐
-> "Used this in my daily work. It did the work of 2 people, and I got a hike."
+> 🧑‍💻 **Kushal** · *Data Scientist*
 >
-> **Kushal** · *Data Scientist*
+> Used this in my daily work. It did the work of 2 people, and I got a hike.
 
-</td>
-<td width="50%" valign="top">
-
-> ### ⭐⭐⭐⭐⭐
-> "Vyom built this in my team and it scaled up so well. We were having a nightmare with so many issues, now we are fully confident about our security. Proud of you Vyom."
+> 🧑‍💻 **Meet** · *Team Lead*
 >
-> **Meet** · *Team Lead*
+> Vyom built this in my team and it scaled up so well. We were having a nightmare with so many issues, now we are fully confident about our security. Proud of you Vyom.
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-> ### ⭐⭐⭐⭐⭐
-> "Subah subah kaam badha deta hai ye tool. Just kidding, great work Vyom!"
+> 🧑‍💻 **Karan** · *Senior AI Engineer*
 >
-> **Karan** · *Senior AI Engineer*
+> Subah subah kaam badha deta hai ye tool. Just kidding, great work Vyom!
 
-</td>
-<td width="50%" valign="top">
-
-> ### ⭐⭐⭐⭐⭐
-> "How are you finding so many vulnerabilities Vyom, give us some time to fix them haha!"
+> 🧑‍💻 **Chintan** · *Team Lead, Operations*
 >
-> **Chintan** · *Team Lead, Operations*
-
-</td>
-</tr>
-</table>
+> How are you finding so many vulnerabilities Vyom, give us some time to fix them haha!
 
 ---
 
@@ -580,6 +580,7 @@ Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift, with OWAS
 <sub>Security Engineering &amp; GRC</sub>
 <br/><br/>
 <a href="mailto:vyomnagpal7@gmail.com"><img src="https://img.shields.io/badge/Email-vyomnagpal7@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/vyomnagpal"><img src="https://img.shields.io/badge/LinkedIn-vyomnagpal-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 
 </td>
 <td align="center" width="50%">
@@ -589,7 +590,7 @@ Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift, with OWAS
 <br/>
 <sub>Data Science @ Petpooja</sub>
 <br/><br/>
-<img src="https://img.shields.io/badge/Role-Data%20Scientist-8E24AA?style=for-the-badge"/>
+<a href="https://www.linkedin.com/in/sahil-patel1815/"><img src="https://img.shields.io/badge/LinkedIn-sahil--patel1815-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 
 </td>
 </tr>
