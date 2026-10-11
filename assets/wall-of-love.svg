@@ -1,56 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" font-family="'Courier New',Consolas,monospace">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="540" viewBox="0 0 1000 540" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif">
   <defs>
-    <linearGradient id="wbg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#04070b"/>
-      <stop offset="1" stop-color="#0a121a"/>
-    </linearGradient>
+    <filter id="sh" x="-5%" y="-20%" width="110%" height="150%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.06"/>
+    </filter>
   </defs>
 
-  <rect x="1" y="1" width="998" height="598" rx="14" fill="url(#wbg)" stroke="#0e3a24"/>
+  <rect x="1" y="1" width="998" height="538" rx="18" fill="#f8fafc" stroke="#e6e8eb"/>
 
-  <!-- terminal title bar -->
-  <rect x="1" y="1" width="998" height="44" rx="14" fill="#0b1118"/>
-  <rect x="1" y="30" width="998" height="15" fill="#0b1118"/>
-  <circle cx="30" cy="23" r="6" fill="#ff5f56"/>
-  <circle cx="52" cy="23" r="6" fill="#ffbd2e"/>
-  <circle cx="74" cy="23" r="6" fill="#27c93f"/>
-  <text x="500" y="28" fill="#2fd968" font-size="13" text-anchor="middle">security-team — #wall-of-love</text>
-  <line x1="1" y1="45" x2="999" y2="45" stroke="#0e3a24"/>
-
-  <!-- msg 1 -->
+  <!-- review 1 -->
   <g opacity="0">
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.06;0.92;1" dur="13s" repeatCount="indefinite"/>
-    <text x="36" y="90" fill="#00ff41" font-size="16" font-weight="bold">kushal@data-science</text>
-    <text x="36" y="118" fill="#c9d1d9" font-size="15">Ran it once &#8594; 20+ real issues. Did 2 people's job. Got a hike.</text>
-    <text x="36" y="142" fill="#1f9d55" font-size="14">&#8220;It works on my machine&#8221; &#8212; now it's secure on prod too.</text>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.93;1" dur="14s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 14;0 0;0 0;0 14" keyTimes="0;0.05;0.93;1" dur="14s" repeatCount="indefinite"/>
+    <rect x="92" y="34" width="872" height="94" rx="16" fill="#ffffff" stroke="#e8ebef" filter="url(#sh)"/>
+    <circle cx="52" cy="72" r="24" fill="#0969da"/>
+    <text x="52" y="78" fill="#ffffff" font-size="17" font-weight="700" text-anchor="middle">K</text>
+    <text x="116" y="66" font-size="16"><tspan fill="#0f172a" font-weight="700">Kushal</tspan><tspan fill="#64748b" dx="9">Data Scientist</tspan></text>
+    <text x="940" y="66" fill="#f59e0b" font-size="14" text-anchor="end">&#9733;&#9733;&#9733;&#9733;&#9733;</text>
+    <text x="116" y="96" fill="#334155" font-size="15">Used this in my daily work. It did the work of 2 people, and I got a hike.</text>
   </g>
 
-  <!-- msg 2 -->
+  <!-- review 2 -->
   <g opacity="0">
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.14;0.92;1" dur="13s" repeatCount="indefinite"/>
-    <text x="36" y="200" fill="#00ff41" font-size="16" font-weight="bold">meet@team-lead</text>
-    <text x="36" y="228" fill="#c9d1d9" font-size="15">We used to have compliance nightmares. Now we shift-left so hard the audit is boring.</text>
-    <text x="36" y="252" fill="#1f9d55" font-size="14">DPDP &#183; ISO &#183; NIST all green. No more &#8220;we'll fix it in prod&#8221;.</text>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.13;0.93;1" dur="14s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 14;0 0;0 0;0 14" keyTimes="0;0.13;0.93;1" dur="14s" repeatCount="indefinite"/>
+    <rect x="92" y="144" width="872" height="112" rx="16" fill="#ffffff" stroke="#e8ebef" filter="url(#sh)"/>
+    <circle cx="52" cy="182" r="24" fill="#8250df"/>
+    <text x="52" y="188" fill="#ffffff" font-size="17" font-weight="700" text-anchor="middle">M</text>
+    <text x="116" y="176" font-size="16"><tspan fill="#0f172a" font-weight="700">Meet</tspan><tspan fill="#64748b" dx="9">Team Lead</tspan></text>
+    <text x="940" y="176" fill="#f59e0b" font-size="14" text-anchor="end">&#9733;&#9733;&#9733;&#9733;&#9733;</text>
+    <text x="116" y="206" fill="#334155" font-size="15">Vyom built this in my team and it scaled up so well. We were having a nightmare</text>
+    <text x="116" y="230" fill="#334155" font-size="15">with so many issues, now we are fully confident about our security. Proud of you Vyom.</text>
   </g>
 
-  <!-- msg 3 -->
+  <!-- review 3 -->
   <g opacity="0">
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.22;0.92;1" dur="13s" repeatCount="indefinite"/>
-    <text x="36" y="310" fill="#00ff41" font-size="16" font-weight="bold">karan@ai-engineer</text>
-    <text x="36" y="338" fill="#c9d1d9" font-size="15">Subah subah kaam badha deta hai ye tool. Just kidding, great work Vyom.</text>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.21;0.93;1" dur="14s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 14;0 0;0 0;0 14" keyTimes="0;0.21;0.93;1" dur="14s" repeatCount="indefinite"/>
+    <rect x="92" y="272" width="872" height="94" rx="16" fill="#ffffff" stroke="#e8ebef" filter="url(#sh)"/>
+    <circle cx="52" cy="310" r="24" fill="#1a7f37"/>
+    <text x="52" y="316" fill="#ffffff" font-size="17" font-weight="700" text-anchor="middle">K</text>
+    <text x="116" y="304" font-size="16"><tspan fill="#0f172a" font-weight="700">Karan</tspan><tspan fill="#64748b" dx="9">Senior AI Engineer</tspan></text>
+    <text x="940" y="304" fill="#f59e0b" font-size="14" text-anchor="end">&#9733;&#9733;&#9733;&#9733;&#9733;</text>
+    <text x="116" y="334" fill="#334155" font-size="15">Subah subah kaam badha deta hai ye tool. Just kidding, great work Vyom!</text>
   </g>
 
-  <!-- msg 4 -->
+  <!-- review 4 -->
   <g opacity="0">
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.30;0.92;1" dur="13s" repeatCount="indefinite"/>
-    <text x="36" y="396" fill="#00ff41" font-size="16" font-weight="bold">chintan@operations</text>
-    <text x="36" y="424" fill="#c9d1d9" font-size="15">How are you finding so many vulnerabilities? Give us some time to fix them haha.</text>
-    <text x="36" y="448" fill="#1f9d55" font-size="14">Security is a feature, not a bug.</text>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.29;0.93;1" dur="14s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 14;0 0;0 0;0 14" keyTimes="0;0.29;0.93;1" dur="14s" repeatCount="indefinite"/>
+    <rect x="92" y="382" width="872" height="94" rx="16" fill="#ffffff" stroke="#e8ebef" filter="url(#sh)"/>
+    <circle cx="52" cy="420" r="24" fill="#bf3989"/>
+    <text x="52" y="426" fill="#ffffff" font-size="17" font-weight="700" text-anchor="middle">C</text>
+    <text x="116" y="414" font-size="16"><tspan fill="#0f172a" font-weight="700">Chintan</tspan><tspan fill="#64748b" dx="9">Team Lead, Operations</tspan></text>
+    <text x="940" y="414" fill="#f59e0b" font-size="14" text-anchor="end">&#9733;&#9733;&#9733;&#9733;&#9733;</text>
+    <text x="116" y="444" fill="#334155" font-size="15">How are you finding so many vulnerabilities? Give us some time to fix them haha.</text>
   </g>
-
-  <!-- prompt -->
-  <text x="36" y="530" fill="#00ff41" font-size="16" font-weight="bold">&#10148; 0 open criticals
-    <animate attributeName="opacity" values="1;1;0.5;1" dur="2s" repeatCount="indefinite"/>
-  </text>
-  <text x="36" y="560" fill="#7d8590" font-size="14"># have you tried turning it off and on again? (we did the secure version)</text>
 </svg>
