@@ -363,67 +363,21 @@ your-project/
 
 ## ⚡ Quick Start
 
-> **One command. No `npm install`. No `pip install`. No API keys.**
+> **Prerequisite:** [OpenCode](https://opencode.ai) + Git. That's it. No `npm`, no `pip`, no keys.
 
-### ✅ Requirements
+**1 · From your project root, install MrHunter**
 
-- **[OpenCode](https://opencode.ai)** — the AI coding agent this plugin runs inside
-  ```bash
-  curl -fsSL https://opencode.ai/v2/install | bash
-  ```
-- **Git** — used by the installer to fetch the plugin
-
-That's it. **No Python, no Node, no Docker, no database, no API keys.**
-
-### 🅰️ Install in one project
-
-**macOS / Linux**
+macOS / Linux
 ```bash
 curl -fsSL https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/install.sh | bash
 ```
 
-**Windows (PowerShell)**
+Windows (PowerShell)
 ```powershell
 irm https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/install.ps1 | iex
 ```
 
-### 🅱️ Install globally (works in every project)
-
-**macOS / Linux**
-```bash
-curl -fsSL https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/install.sh | bash -s -- --global
-```
-
-**Windows (PowerShell)**
-```powershell
-& ([scriptblock]::Create((irm https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/install.ps1))) -Global
-```
-
-> 💡 Global install copies agents, commands and skills into `~/.config/opencode`. Merge the `agent` block from `MrHunter/opencode.json` into `~/.config/opencode/opencode.json` to register the subagents.
-
-<details>
-<summary>📦 Prefer to install manually (no script)?</summary>
-<br/>
-
-**macOS / Linux**
-```bash
-git clone --depth 1 https://github.com/TheWildEye/MrHunter2.git _mrhunter
-cp -r _mrhunter/MrHunter/.opencode ./
-cp _mrhunter/MrHunter/opencode.json _mrhunter/MrHunter/AGENTS.md ./
-rm -rf _mrhunter
-```
-
-**Windows (PowerShell)**
-```powershell
-git clone --depth 1 https://github.com/TheWildEye/MrHunter2.git _mrhunter
-Copy-Item -Recurse _mrhunter/MrHunter/.opencode ./
-Copy-Item _mrhunter/MrHunter/opencode.json, _mrhunter/MrHunter/AGENTS.md ./
-Remove-Item -Recurse -Force _mrhunter
-```
-
-</details>
-
-### ▶️ Run your first scan
+**2 · Open your project in OpenCode, then scan**
 
 ```bash
 opencode
@@ -432,6 +386,8 @@ opencode
 ```
 /mrhunter-quick-scan
 ```
+
+> 💡 Want it in **every** project? Add `--global` (macOS/Linux) or `-Global` (Windows) to the install command.
 
 > 🎉 That's it. **No background services. Nothing leaves your machine.**
 
@@ -625,7 +581,5 @@ Released under the **MIT License**, free to use, fork, and extend.
 <br/>
 
 <img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/footer-hacker.svg" width="100%"/>
-
-<sub>Built with 🔐 by the MrHunter team · Find it. Prove it. Fix it. Ship it.</sub>
 
 </div>
