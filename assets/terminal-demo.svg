@@ -18,7 +18,7 @@
   <circle cx="78" cy="23" r="7" fill="#27c93f"/>
   <text x="450" y="28" fill="#8b949e" font-size="13" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif">mrhunter · quick scan</text>
 
-  <!-- line 1: command -->
+  
   <g opacity="0">
     <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.92;1" dur="12s" repeatCount="indefinite"/>
     <text x="34" y="92" fill="#00ff9c" font-size="19" font-weight="bold">$ mrhunter-quick-scan</text>
@@ -27,19 +27,19 @@
     </rect>
   </g>
 
-  <!-- line 2 -->
+  
   <g opacity="0">
     <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.10;0.92;1" dur="12s" repeatCount="indefinite"/>
     <text x="34" y="140" fill="#8b949e" font-size="18">&#9656; Recon complete: 2,847 files &#183; 8 languages</text>
   </g>
 
-  <!-- line 3 -->
+  
   <g opacity="0">
     <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.92;1" dur="12s" repeatCount="indefinite"/>
     <text x="34" y="188" fill="#8b949e" font-size="18">&#9656; SAST + DAST + Secrets engines online</text>
   </g>
 
-  <!-- line 4: CRITICAL -->
+  
   <g opacity="0">
     <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.20;0.92;1" dur="12s" repeatCount="indefinite"/>
     <circle cx="40" cy="246" r="6" fill="#ff4d4f"/>
@@ -51,7 +51,7 @@
     </text>
   </g>
 
-  <!-- line 5: HIGH -->
+  
   <g opacity="0">
     <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.25;0.92;1" dur="12s" repeatCount="indefinite"/>
     <circle cx="40" cy="294" r="6" fill="#ff9f43"/>
@@ -63,7 +63,7 @@
     </text>
   </g>
 
-  <!-- line 6: MEDIUM -->
+  
   <g opacity="0">
     <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.30;0.92;1" dur="12s" repeatCount="indefinite"/>
     <circle cx="40" cy="342" r="6" fill="#ffd93d"/>
@@ -75,7 +75,7 @@
     </text>
   </g>
 
-  <!-- line 7: done -->
+  
   <g opacity="0">
     <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.36;0.92;1" dur="12s" repeatCount="indefinite"/>
     <text x="34" y="406" fill="#00ff9c" font-size="18" font-weight="bold">&#10004; Report ready &#183; proven, ranked, exported</text>

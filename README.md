@@ -1,16 +1,13 @@
 <div align="center">
 
-<!-- ══════════════════════ ANIMATED HEADER ══════════════════════ -->
 <img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/header-hacker.svg" width="100%" alt="MrHunter"/>
 
-<!-- ══════════════════════ TYPING ANIMATION ══════════════════════ -->
 <a href="#-quick-start">
   <img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/tagline.svg" alt="Typing SVG"/>
 </a>
 
 <br/>
 
-<!-- ══════════════════════ BADGES ══════════════════════ -->
 <img src="https://img.shields.io/badge/version-2.1.0-22D3EE?style=for-the-badge&labelColor=0f2027"/>
 <img src="https://img.shields.io/badge/built%20for-OpenCode-7C3AED?style=for-the-badge&labelColor=0f2027"/>
 <img src="https://img.shields.io/badge/dependencies-0-22C55E?style=for-the-badge&labelColor=0f2027"/>
@@ -24,7 +21,6 @@
 
 <br/><br/>
 
-<!-- ══════════════════════ ACTION BUTTONS ══════════════════════ -->
 <a href="#-quick-start"><img src="https://img.shields.io/badge/%E2%9A%A1_QUICK_START-Install%20in%2060s-00C853?style=for-the-badge"/></a>
 <a href="#-commands"><img src="https://img.shields.io/badge/%F0%9F%93%96_COMMANDS-Reference-2962FF?style=for-the-badge"/></a>
 <a href="#-why-teams-choose-mrhunter"><img src="https://img.shields.io/badge/%F0%9F%92%A1_WHY_MRHUNTER-For%20Leads%20%26%20CISOs-FF6D00?style=for-the-badge"/></a>

@@ -7,7 +7,7 @@
 
   <rect x="1" y="1" width="998" height="538" rx="18" fill="#f8fafc" stroke="#e6e8eb"/>
 
-  <!-- review 1 -->
+  
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.1s" fill="freeze"/>
     <animateTransform attributeName="transform" type="translate" from="0 14" to="0 0" dur="0.6s" begin="0.1s" fill="freeze"/>
@@ -19,7 +19,7 @@
     <text x="116" y="96" fill="#334155" font-size="15">Used this in my daily work. It did the work of 2 people, and I got a hike.</text>
   </g>
 
-  <!-- review 2 -->
+  
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.35s" fill="freeze"/>
     <animateTransform attributeName="transform" type="translate" from="0 14" to="0 0" dur="0.6s" begin="0.35s" fill="freeze"/>
@@ -32,7 +32,7 @@
     <text x="116" y="230" fill="#334155" font-size="15">with so many issues, now we are fully confident about our security. Proud of you Vyom.</text>
   </g>
 
-  <!-- review 3 -->
+  
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.6s" fill="freeze"/>
     <animateTransform attributeName="transform" type="translate" from="0 14" to="0 0" dur="0.6s" begin="0.6s" fill="freeze"/>
@@ -44,7 +44,7 @@
     <text x="116" y="334" fill="#334155" font-size="15">Subah subah kaam badha deta hai ye tool. Just kidding, great work Vyom!</text>
   </g>
 
-  <!-- review 4 -->
+  
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.85s" fill="freeze"/>
     <animateTransform attributeName="transform" type="translate" from="0 14" to="0 0" dur="0.6s" begin="0.85s" fill="freeze"/>

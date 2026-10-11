@@ -36,7 +36,7 @@ jobs:
         run: |
           set -e
           missing=0
-          for p in $(grep -oE 'raw.githubusercontent.com/TheWildEye/MrHunter2/main/[^"]+' README.md | sed 's#.*/main/##' | sort -u); do
+          for p in $(grep -oE 'src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/[^"]+"' README.md | sed -E 's#.*/main/([^"]+)".*#\1#' | sort -u); do
             if [ ! -f "$p" ]; then echo "MISSING asset: $p"; missing=1; fi
           done
           [ "$missing" -eq 0 ] && echo "all README asset refs resolve"
