@@ -462,7 +462,7 @@ opencode
 | Static analysis (SAST) | ✅ | ✅ |
 | Runtime attack simulation (DAST) | 💰 Separate product | ✅ Built-in |
 | Secret detection | ➖ | ✅ 35+ types |
-| Indian compliance mapping | ❌ | ✅ 7 frameworks |
+| Compliance mapping | ❌ | ✅ ISO 27001 · NIST + 7 Indian laws |
 | Zero infrastructure | ❌ | ✅ |
 | Business-ready reports | ➖ | ✅ |
 | Cost | 💸 Licenses | 🆓 Zero |
