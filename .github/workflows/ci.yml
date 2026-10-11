@@ -1,0 +1,55 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate opencode.json
+        run: python3 -c "import json; json.load(open('MrHunter/opencode.json')); print('opencode.json is valid JSON')"
+
+      - name: Verify plugin structure
+        run: |
+          set -e
+          files="MrHunter/AGENTS.md MrHunter/opencode.json
+                 MrHunter/.opencode/agents/sast-engine.md
+                 MrHunter/.opencode/agents/dast-engine.md
+                 MrHunter/.opencode/agents/secret-hunter.md
+                 MrHunter/.opencode/agents/compliance-engine.md
+                 MrHunter/.opencode/agents/security-reviewer.md
+                 MrHunter/.opencode/commands/mrhunter-quick-scan.md
+                 MrHunter/.opencode/commands/mrhunter-security-assess.md
+                 MrHunter/.opencode/commands/mrhunter-compliance-audit.md
+                 MrHunter/.opencode/commands/mrhunter-fix-issue.md"
+          for f in $files; do
+            [ -f "$f" ] || { echo "missing: $f"; exit 1; }
+          done
+          echo "plugin structure OK"
+
+      - name: Verify README asset references resolve
+        run: |
+          set -e
+          missing=0
+          for p in $(grep -oE 'raw.githubusercontent.com/TheWildEye/MrHunter2/main/[^"]+' README.md | sed 's#.*/main/##' | sort -u); do
+            if [ ! -f "$p" ]; then echo "MISSING asset: $p"; missing=1; fi
+          done
+          [ "$missing" -eq 0 ] && echo "all README asset refs resolve"
+          exit $missing
+
+      - name: Smoke-test installer (project)
+        run: |
+          set -e
+          mkdir -p /tmp/proj && cd /tmp/proj
+          bash "$GITHUB_WORKSPACE/install.sh"
+          test -d .opencode/agents
+          test -d .opencode/commands
+          test -d .opencode/skills
+          test -f opencode.json
+          test -f AGENTS.md
+          echo "installer OK"

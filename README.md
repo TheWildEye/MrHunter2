@@ -5,7 +5,7 @@
 
 <!-- ══════════════════════ TYPING ANIMATION ══════════════════════ -->
 <a href="#-quick-start">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=23&duration=2600&pause=700&color=22D3EE&center=true&vCenter=true&width=1000&height=70&lines=Find+vulnerabilities+before+attackers+do;SAST+%2B+DAST+Simulation+%2B+Secret+Hunting;7+Indian+Regulatory+Frameworks%2C+Built+In;Zero+Infrastructure.+Zero+API+Keys.+Pure+Reasoning.;Find+it.+Prove+it.+Fix+it.+Ship+it." alt="Typing SVG"/>
+  <img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/tagline.svg" alt="Typing SVG"/>
 </a>
 
 <br/>
@@ -253,8 +253,8 @@ Deduplicates, cross-references and **risk-ranks** everything the other engines f
 
 > MrHunter isn't just a scanner, it's a **GRC co-pilot**. It turns raw code findings into **audit-ready evidence**, maps every issue to a control framework, and quantifies the **business &amp; legal risk** leadership cares about.
 
-<img src="https://flagcdn.com/16x12/in.png" height="13" alt="IN"/> <img src="https://img.shields.io/badge/DPDP_Act-2023_+_Rules_2025-FF9933?style=flat-square"/>
-<img src="https://flagcdn.com/16x12/in.png" height="13" alt="IN"/> <img src="https://img.shields.io/badge/IT_Act-2000-138808?style=flat-square"/>
+<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/flag-in.svg" height="13" alt="IN"/> <img src="https://img.shields.io/badge/DPDP_Act-2023_+_Rules_2025-FF9933?style=flat-square"/>
+<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/flag-in.svg" height="13" alt="IN"/> <img src="https://img.shields.io/badge/IT_Act-2000-138808?style=flat-square"/>
 <img src="https://img.shields.io/badge/%F0%9F%92%B3_PCI_DSS-4.0.1-1A1F71?style=flat-square"/>
 <img src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F_CERT--IN-Directions_2022-0B7285?style=flat-square"/>
 <img src="https://img.shields.io/badge/%F0%9F%8F%A6_RBI-Cyber_Resilience_2024-6A1B9A?style=flat-square"/>
@@ -272,11 +272,11 @@ Deduplicates, cross-references and **risk-ranks** everything the other engines f
 | 🔒 **ISO/IEC 27001** | Access control, cryptography, logging &amp; monitoring, secure SDLC (Annex A controls) | Clears enterprise &amp; vendor security questionnaires |
 | 🧭 **NIST SP 800-53** | AC · AU · SC · SI · RA control families | Required for regulated &amp; government procurement |
 
-### <img src="https://flagcdn.com/24x18/in.png" height="18" alt="IN"/> Indian regulatory frameworks
+### <img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/flag-in.svg" height="18" alt="IN"/> Indian regulatory frameworks
 | Framework | What MrHunter Checks | Why It Matters |
 |---|---|---|
-| <img src="https://flagcdn.com/16x12/in.png" height="12" alt="IN"/> **DPDP Act 2023** | Consent, children's data, breach readiness, erasure | Penalties up to **₹250 Cr** |
-| <img src="https://flagcdn.com/16x12/in.png" height="12" alt="IN"/> **IT Act 2000** | SPDI safeguards, disclosure, confidentiality | Criminal + civil liability |
+| <img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/flag-in.svg" height="12" alt="IN"/> **DPDP Act 2023** | Consent, children's data, breach readiness, erasure | Penalties up to **₹250 Cr** |
+| <img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/flag-in.svg" height="12" alt="IN"/> **IT Act 2000** | SPDI safeguards, disclosure, confidentiality | Criminal + civil liability |
 | 💳 **PCI DSS 4.0.1** | PAN/CVV storage, TLS, MFA, logging | Card-brand fines &amp; suspension |
 | 🛡️ **CERT-IN 2022** | 6-hour reporting, 180-day logs, NTP, MFA | Statutory obligation |
 | 🏦 **RBI Cyber 2024** | Device binding, tokenization, rate limits | PSS Act penalties |
@@ -394,6 +394,34 @@ opencode
 <img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/divider.svg" width="100%"/>
 
 </div>
+
+---
+
+<div align="center">
+
+## 📦 Manual Install
+
+> Prefer to do it by hand? Just clone and copy. No scripts, no surprises.
+
+</div>
+
+**macOS / Linux**
+```bash
+git clone --depth 1 https://github.com/TheWildEye/MrHunter2.git _mrhunter
+cp -r _mrhunter/MrHunter/.opencode ./
+cp _mrhunter/MrHunter/opencode.json _mrhunter/MrHunter/AGENTS.md ./
+rm -rf _mrhunter
+```
+
+**Windows (PowerShell)**
+```powershell
+git clone --depth 1 https://github.com/TheWildEye/MrHunter2.git _mrhunter
+Copy-Item -Recurse _mrhunter/MrHunter/.opencode ./
+Copy-Item _mrhunter/MrHunter/opencode.json, _mrhunter/MrHunter/AGENTS.md ./
+Remove-Item -Recurse -Force _mrhunter
+```
+
+> Then open OpenCode in your project and run `/mrhunter-quick-scan`.
 
 ---
 
