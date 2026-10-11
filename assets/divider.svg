@@ -7,7 +7,7 @@
     </linearGradient>
     <linearGradient id="trail" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#00ff41" stop-opacity="0"/>
-      <stop offset="0.65" stop-color="#00ff41" stop-opacity="0.75"/>
+      <stop offset="0.6" stop-color="#00ff41" stop-opacity="0.7"/>
       <stop offset="1" stop-color="#aaffcc" stop-opacity="1"/>
     </linearGradient>
     <filter id="glow" x="-30%" y="-500%" width="160%" height="1100%">
@@ -19,12 +19,8 @@
   <rect x="0" y="3" width="1200" height="2" fill="url(#base)"/>
 
   <g filter="url(#glow)">
-    <rect x="-280" y="3" width="280" height="2" fill="url(#trail)">
-      <animate attributeName="x" from="-280" to="1200" dur="3.2s" repeatCount="indefinite"/>
-    </rect>
-    <circle cy="4" r="3" fill="#eaffef">
-      <animate attributeName="cx" from="-280" to="1200" dur="3.2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.9;0.9" dur="3.2s" repeatCount="indefinite"/>
-    </circle>
+    <animateTransform attributeName="transform" type="translate" from="-300 0" to="1200 0" dur="3.2s" repeatCount="indefinite"/>
+    <rect x="0" y="3" width="300" height="2" fill="url(#trail)"/>
+    <circle cx="300" cy="4" r="3" fill="#eaffef"/>
   </g>
 </svg>
