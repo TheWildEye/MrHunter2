@@ -1,3 +1,8 @@
+---
+name: legal
+description: Indian regulatory compliance knowledge base covering DPDP Act 2023 + Rules 2025, IT Act 2000, PCI DSS 4.0.1, CERT-IN Directions 2022, RBI Cyber Master Directions 2024, SEBI CSCRF, and IRDAI Cyber Guidelines. Use when auditing code for Indian regulatory violations or citing statutory penalties.
+---
+
 # Indian & Global Regulatory Compliance — Single Source of Truth
 
 > This file contains ALL checks across 7 regulatory frameworks. The compliance engine reads this and auto-detects which frameworks apply based on the codebase.

@@ -1,74 +1,63 @@
 # ==============================================================================
-# Claude Code Petpooja Security - Installation Script (Windows PowerShell)
+# MrHunter - OpenCode Installation Script (Windows PowerShell)
 # ==============================================================================
-# Installs custom slash commands, agents, and skills into your project directory.
+# Installs the OpenCode agents, slash commands, and skills into a project
+# (./.opencode) or globally ($HOME/.config/opencode).
 #
 # Usage:
 #   Project-level (current workspace):
 #     .\install.ps1
 #
-#   Global-level (any workspace you open with Claude Code):
+#   Global-level (available in every OpenCode project):
 #     .\install.ps1 -Global
 # ==============================================================================
 
 param(
-    [switch]$Global,
-    [string]$User = "TheWildEye",
-    [string]$Repo = "Petpooja-security",
-    [string]$Branch = "main"
+    [switch]$Global
 )
 
 $ErrorActionPreference = "Stop"
 
 # --- CONFIGURATION (Change this to match your repository URL) ---
-$GithubUser = $User
-$GithubRepo = $Repo
-$GithubBranch = $Branch
+$GithubUser = "TheWildEye"
+$GithubRepo = "MrHunter2"
+$Branch     = "main"
+$RepoUrl    = "https://github.com/$GithubUser/$GithubRepo.git"
 # ================================================================
 
-$BaseUrl = "https://raw.githubusercontent.com/$GithubUser/$GithubRepo/$GithubBranch/.claude"
+$TmpDir = Join-Path $env:TEMP ("mrhunter-" + [guid]::NewGuid().ToString("N"))
 
-$TargetDir = "./.claude"
+Write-Host "===============================================" -ForegroundColor Cyan
+Write-Host " Installing MrHunter for OpenCode" -ForegroundColor Cyan
+Write-Host " Source: $GithubUser/$GithubRepo @ $Branch" -ForegroundColor Cyan
+Write-Host "===============================================" -ForegroundColor Cyan
+
+git clone --depth 1 --branch $Branch $RepoUrl $TmpDir | Out-Null
+
 if ($Global) {
-    $TargetDir = "$Home/.claude"
+    $Dest = Join-Path $HOME ".config/opencode"
+    New-Item -ItemType Directory -Force -Path "$Dest/agent", "$Dest/command", "$Dest/skill" | Out-Null
+    Copy-Item -Recurse -Force "$TmpDir/.opencode/agents/*"   "$Dest/agent/"
+    Copy-Item -Recurse -Force "$TmpDir/.opencode/commands/*" "$Dest/command/"
+    Copy-Item -Recurse -Force "$TmpDir/.opencode/skills/*"   "$Dest/skill/"
+    Write-Host "Installed agents, commands, and skills to $Dest"
+    Write-Host "NOTE: merge the 'agent' block from $TmpDir/opencode.json into $Dest/opencode.json"
+}
+else {
+    New-Item -ItemType Directory -Force -Path "./.opencode" | Out-Null
+    Copy-Item -Recurse -Force "$TmpDir/.opencode/*" "./.opencode/"
+    if (-not (Test-Path "./opencode.json")) { Copy-Item "$TmpDir/opencode.json" "./opencode.json" }
+    if (-not (Test-Path "./AGENTS.md"))     { Copy-Item "$TmpDir/AGENTS.md"     "./AGENTS.md" }
+    Write-Host "Installed OpenCode plugin into ./.opencode/"
 }
 
-Write-Host "===============================================" -ForegroundColor Cyan
-Write-Host " Installing Petpooja Security Agent" -ForegroundColor Cyan
-Write-Host " Target Directory: $TargetDir" -ForegroundColor Cyan
-Write-Host " Source: $GithubUser/$GithubRepo @ $GithubBranch" -ForegroundColor Cyan
-Write-Host "===============================================" -ForegroundColor Cyan
-
-# Ensure directories exist
-New-Item -ItemType Directory -Force -Path "$TargetDir/commands", "$TargetDir/agents", "$TargetDir/skills" | Out-Null
-
-# Download settings
-Write-Host "Fetching settings.json..."
-Invoke-RestMethod -Uri "$BaseUrl/settings.json" -OutFile "$TargetDir/settings.json"
-
-# Download commands
-Write-Host "Fetching commands..."
-@("tiger-security-assess", "tiger-compliance-audit", "tiger-quick-scan", "tiger-fix-issue") | ForEach-Object {
-    Invoke-RestMethod -Uri "$BaseUrl/commands/$_.md" -OutFile "$TargetDir/commands/$_.md"
-}
-
-# Download agents
-Write-Host "Fetching agents..."
-@("sast-engine", "secret-hunter", "dast-engine", "compliance-engine", "security-reviewer") | ForEach-Object {
-    Invoke-RestMethod -Uri "$BaseUrl/agents/$_.md" -OutFile "$TargetDir/agents/$_.md"
-}
-
-# Download skills
-Write-Host "Fetching skills..."
-@("owasp-top10", "mitre-cwe", "mobile-security", "legal") | ForEach-Object {
-    Invoke-RestMethod -Uri "$BaseUrl/skills/$_.md" -OutFile "$TargetDir/skills/$_.md"
-}
+Remove-Item -Recurse -Force $TmpDir
 
 Write-Host "===============================================" -ForegroundColor Green
-Write-Host "✅ Installation Complete!" -ForegroundColor Green
-Write-Host "To run the scans, start 'claude' CLI in this directory and type:" -ForegroundColor Green
-Write-Host "  /tiger-security-assess   - Run full SAST + DAST + secrets + Indian compliance scan" -ForegroundColor Green
-Write-Host "  /tiger-compliance-audit  - Run deep Indian regulatory compliance audit" -ForegroundColor Green
-Write-Host "  /tiger-quick-scan        - Run rapid SAST & secret checks" -ForegroundColor Green
-Write-Host "  /tiger-fix-issue         - Interactively apply secure fixes to vulnerabilities" -ForegroundColor Green
+Write-Host " Installation Complete!" -ForegroundColor Green
+Write-Host " Restart OpenCode, then run any of:" -ForegroundColor Green
+Write-Host "   /mrhunter-security-assess   - Full SAST + DAST + secrets + compliance scan"
+Write-Host "   /mrhunter-compliance-audit  - Deep Indian regulatory compliance audit"
+Write-Host "   /mrhunter-quick-scan        - Rapid SAST & secret checks"
+Write-Host "   /mrhunter-fix-issue         - Interactively fix a specific vulnerability"
 Write-Host "===============================================" -ForegroundColor Green

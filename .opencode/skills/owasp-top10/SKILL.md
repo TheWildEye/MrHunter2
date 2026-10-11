@@ -1,3 +1,8 @@
+---
+name: owasp-top10
+description: OWASP Top 10 2021 checklist with detection guidance for every category (A01-A10) plus OWASP API Security Top 10 2023. Use when scanning code for web and API security weaknesses.
+---
+
 # OWASP Top 10 — 2021 Edition Checklist
 
 ## A01:2021 — Broken Access Control

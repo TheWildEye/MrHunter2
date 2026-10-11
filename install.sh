@@ -1,14 +1,15 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # ==============================================================================
-# Claude Code Petpooja Security - Installation Script (macOS / Linux)
+# MrHunter - OpenCode Installation Script (macOS / Linux)
 # ==============================================================================
-# Installs custom slash commands, agents, and skills into your project directory.
+# Installs the OpenCode agents, slash commands, and skills into a project
+# (./.opencode) or globally (~/.config/opencode).
 #
 # Usage:
 #   Project-level (current workspace):
 #     ./install.sh
 #
-#   Global-level (any workspace you open with Claude Code):
+#   Global-level (available in every OpenCode project):
 #     ./install.sh --global
 # ==============================================================================
 
@@ -16,68 +17,45 @@ set -e
 
 # --- CONFIGURATION (Change this to match your repository URL) ---
 GITHUB_USER="TheWildEye"
-GITHUB_REPO="Petpooja-security"
+GITHUB_REPO="MrHunter2"
 BRANCH="main"
+REPO_URL="https://github.com/$GITHUB_USER/$GITHUB_REPO.git"
 # ================================================================
 
-# Parse command line arguments
-GLOBAL_INSTALL=false
-while [[ "$#" -gt 0 ]]; do
-  case $1 in
-    --global) GLOBAL_INSTALL=true ;;
-    --user) GITHUB_USER="$2"; shift ;;
-    --repo) GITHUB_REPO="$2"; shift ;;
-    --branch) BRANCH="$2"; shift ;;
-    *) echo "Unknown parameter passed: $1"; exit 1 ;;
-  esac
-  shift
-done
+GLOBAL=false
+[ "$1" == "--global" ] && GLOBAL=true
 
-BASE_URL="https://raw.githubusercontent.com/$GITHUB_USER/$GITHUB_REPO/$BRANCH/.claude"
-
-TARGET_DIR="./.claude"
-if [ "$GLOBAL_INSTALL" = true ]; then
-  TARGET_DIR="$HOME/.claude"
-fi
+TMP_DIR="$(mktemp -d)"
+trap 'rm -rf "$TMP_DIR"' EXIT
 
 echo "==============================================="
-echo " Installing Petpooja Security Agent"
-echo " Target Directory: $TARGET_DIR"
+echo " Installing MrHunter for OpenCode"
 echo " Source: $GITHUB_USER/$GITHUB_REPO @ $BRANCH"
 echo "==============================================="
 
-# Ensure directories exist
-mkdir -p "$TARGET_DIR/commands"
-mkdir -p "$TARGET_DIR/agents"
-mkdir -p "$TARGET_DIR/skills"
+git clone --depth 1 --branch "$BRANCH" "$REPO_URL" "$TMP_DIR" >/dev/null 2>&1
 
-# Download settings
-echo "Fetching settings.json..."
-curl -fsSL "$BASE_URL/settings.json" -o "$TARGET_DIR/settings.json"
-
-# Download commands
-echo "Fetching commands..."
-for cmd in tiger-security-assess tiger-compliance-audit tiger-quick-scan tiger-fix-issue; do
-  curl -fsSL "$BASE_URL/commands/$cmd.md" -o "$TARGET_DIR/commands/$cmd.md"
-done
-
-# Download agents
-echo "Fetching agents..."
-for agent in sast-engine secret-hunter dast-engine compliance-engine security-reviewer; do
-  curl -fsSL "$BASE_URL/agents/$agent.md" -o "$TARGET_DIR/agents/$agent.md"
-done
-
-# Download skills
-echo "Fetching skills..."
-for skill in owasp-top10 mitre-cwe mobile-security legal; do
-  curl -fsSL "$BASE_URL/skills/$skill.md" -o "$TARGET_DIR/skills/$skill.md"
-done
+if [ "$GLOBAL" = true ]; then
+  DEST="$HOME/.config/opencode"
+  mkdir -p "$DEST/agent" "$DEST/command" "$DEST/skill"
+  cp -R "$TMP_DIR/.opencode/agents/."   "$DEST/agent/"
+  cp -R "$TMP_DIR/.opencode/commands/." "$DEST/command/"
+  cp -R "$TMP_DIR/.opencode/skills/."   "$DEST/skill/"
+  echo "Installed agents, commands, and skills to $DEST"
+  echo "NOTE: merge the \"agent\" block from $TMP_DIR/opencode.json into $DEST/opencode.json"
+else
+  mkdir -p "./.opencode"
+  cp -R "$TMP_DIR/.opencode/." "./.opencode/"
+  [ -f "./opencode.json" ] || cp "$TMP_DIR/opencode.json" "./opencode.json"
+  [ -f "./AGENTS.md" ] || cp "$TMP_DIR/AGENTS.md" "./AGENTS.md"
+  echo "Installed OpenCode plugin into ./.opencode/"
+fi
 
 echo "==============================================="
-echo "✅ Installation Complete!"
-echo "To run the scans, start 'claude' CLI in this directory and type:"
-echo "  /tiger-security-assess   - Run full SAST + DAST + secrets + Indian compliance scan"
-echo "  /tiger-compliance-audit  - Run deep Indian regulatory compliance audit"
-echo "  /tiger-quick-scan        - Run rapid SAST & secret checks"
-echo "  /tiger-fix-issue         - Interactively apply secure fixes to vulnerabilities"
+echo " Installation Complete!"
+echo " Restart OpenCode, then run any of:"
+echo "   /mrhunter-security-assess   - Full SAST + DAST + secrets + compliance scan"
+echo "   /mrhunter-compliance-audit  - Deep Indian regulatory compliance audit"
+echo "   /mrhunter-quick-scan        - Rapid SAST & secret checks"
+echo "   /mrhunter-fix-issue         - Interactively fix a specific vulnerability"
 echo "==============================================="

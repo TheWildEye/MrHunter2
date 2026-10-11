@@ -67,8 +67,8 @@ MONGO_INITDB_ROOT_PASSWORD = "changeme"   # MongoDB default placeholder
 
 # ── Per-developer individual credentials — compliant ──────────────────────
 # Each developer has their own unique, non-shared credential
-DEV_VYOM_API_KEY   = "${VYOM_API_KEY}"       # injected from env at runtime
-DEV_SAHIL_API_KEY  = "${SAHIL_API_KEY}"      # injected from env at runtime
+DEV_ALICE_API_KEY  = "${ALICE_API_KEY}"      # injected from env at runtime
+DEV_BOB_API_KEY    = "${BOB_API_KEY}"        # injected from env at runtime
 
 # ── IAM role-based access (no shared key) — compliant ─────────────────────
 # IAM roles don't produce static credentials — nothing to flag

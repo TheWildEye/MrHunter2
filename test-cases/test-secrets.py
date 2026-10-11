@@ -423,8 +423,8 @@ PRIVATE_REDIS_HOST    = "192.168.1.200"
 
 # ── Production URLs hardcoded in source ───────────────────────────────────
 # [DETECT — LOW severity]
-PROD_API_URL          = "https://internal-api.company.petpooja.com"
-STAGING_DB_HOST       = "staging-db.internal.petpooja.com"
+PROD_API_URL          = "https://internal-api.company.example.com"
+STAGING_DB_HOST       = "staging-db.internal.example.com"
 
 # ── Default Credentials (highest risk) ────────────────────────────────────
 # Pattern : (?i)(password|passwd)\s*[:=]\s*["'](admin|root|password|123456|changeme|default)
@@ -435,13 +435,13 @@ DEFAULT_WEAK_PASS     = "password123"
 
 # ── Backup Server Credentials ─────────────────────────────────────────────
 # [DETECT]
-BACKUP_SERVER         = "backup.internal.petpooja.com"
+BACKUP_SERVER         = "backup.internal.example.com"
 BACKUP_SERVER_USER    = "backup_admin"
 BACKUP_SERVER_PASS    = "backup-server-P@ss2024-AbCdEfGhIjKl"
 
 # ── Admin Emails (LOW risk — flag as informational) ───────────────────────
-ADMIN_EMAIL           = "admin@petpooja.com"
-SYSTEM_EMAIL          = "system-alerts@petpooja.com"
+ADMIN_EMAIL           = "admin@example.com"
+SYSTEM_EMAIL          = "system-alerts@example.com"
 
 # =============================================================================
 # FALSE POSITIVES — Global (SKIP across all sections)

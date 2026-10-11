@@ -1,0 +1,55 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "agent": {
+    "sast-engine": {
+      "description": "SAST engine: deep static analysis for OWASP Top 10, SANS Top 25, injection flaws, auth bypasses, insecure deserialization, path traversal, SSRF, and more. Covers Python, JS/TS, Java, Go, PHP, Ruby, Kotlin, Swift.",
+      "mode": "subagent",
+      "temperature": 0.1,
+      "permission": {
+        "edit": "deny",
+        "bash": "deny",
+        "webfetch": "deny"
+      }
+    },
+    "dast-engine": {
+      "description": "DAST simulation engine: code-reasoning-based runtime attack simulation on REST, GraphQL, WebSocket, gRPC, OAuth/OIDC endpoints. No actual HTTP requests — pure code analysis.",
+      "mode": "subagent",
+      "temperature": 0.1,
+      "permission": {
+        "edit": "deny",
+        "bash": "deny",
+        "webfetch": "deny"
+      }
+    },
+    "secret-hunter": {
+      "description": "Secret detection engine: scans ALL files (including .env and gitignored files) for 35+ credential types — AWS/GCP/Azure keys, Stripe/Razorpay live keys, OpenAI/Anthropic/Gemini API keys, private keys, DB connection strings, JWT secrets. Reports every secret as Informational with a gitignored / not-gitignored status alert.",
+      "mode": "subagent",
+      "temperature": 0.1,
+      "permission": {
+        "edit": "deny",
+        "bash": "deny",
+        "webfetch": "deny"
+      }
+    },
+    "compliance-engine": {
+      "description": "Indian regulatory compliance engine: audits code against DPDP Act 2023 + Rules 2025, IT Act 2000, PCI DSS 4.0.1, CERT-IN Directions 2022, RBI Cyber Master Directions 2024, SEBI CSCRF Aug 2024, and IRDAI Cyber Guidelines 2023/2026. Cites exact penalty figures and sections.",
+      "mode": "subagent",
+      "temperature": 0.1,
+      "permission": {
+        "edit": "deny",
+        "bash": "deny",
+        "webfetch": "allow"
+      }
+    },
+    "security-reviewer": {
+      "description": "Security triage orchestrator: deduplicates findings from all four engines, cross-references DAST evidence with SAST, verifies reachability, scores exploitability (CVSS v4 / 1–5 scale), and produces the final risk-ranked security report.",
+      "mode": "subagent",
+      "temperature": 0.1,
+      "permission": {
+        "edit": "deny",
+        "bash": "deny",
+        "webfetch": "deny"
+      }
+    }
+  }
+}

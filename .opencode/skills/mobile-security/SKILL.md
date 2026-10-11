@@ -1,3 +1,8 @@
+---
+name: mobile-security
+description: Android and iOS mobile security checks: manifest analysis, insecure data storage, certificate pinning, WebView bridges, backup flags, keystore. Use when scanning mobile app code.
+---
+
 # Mobile Security — Android & iOS Checks
 
 ## Android Security Checks

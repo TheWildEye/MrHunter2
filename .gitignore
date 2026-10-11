@@ -1,27 +1,29 @@
-# Claude Code Security Agent .gitignore
+# Dependencies
+node_modules/
+bun.lock
 
-# Temp and report files
+# Generated reports / scan output
 *report.md
 *report.json
 report-*.md
+mrhunter-report-*.txt
 scan-results.txt
 
-# Editor / System files
+# Editor / OS files
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
 *.log
 
-# Language cache / dependencies
+# Language caches / build output
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-node_modules/
 dist/
 build/
 .cache/
 
-# Local custom overrides
-.claude/local_settings.json
+# Local overrides
+local_settings.json

@@ -1,3 +1,8 @@
+---
+name: mitre-cwe
+description: MITRE CWE Top 25 mapping table (CWE ID, name, OWASP mapping, CVSS range, examples). Use when mapping findings to CWE identifiers or assigning severity.
+---
+
 # MITRE CWE — Top 25 Most Dangerous Software Weaknesses
 
 ## CWE Mapping Table
