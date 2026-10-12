@@ -2,21 +2,21 @@
 
 <img src="assets/header-hacker.svg" width="100%" alt="MrHunter"/>
 
-<a href="#-quick-start">
+<a href="#09--quick-start">
   <img src="assets/tagline.svg" alt="Typing SVG"/>
 </a>
 
 <br/><br/>
 
-<a href="#-quick-start"><img src="https://img.shields.io/badge/%E2%9A%A1_QUICK_START-Install%20in%2060s-15803D?style=for-the-badge&labelColor=0f2027"/></a>
-<a href="#-commands"><img src="https://img.shields.io/badge/%F0%9F%93%96_COMMANDS-Reference-15803D?style=for-the-badge&labelColor=0f2027"/></a>
-<a href="#-why-teams-choose-mrhunter"><img src="https://img.shields.io/badge/%F0%9F%92%A1_WHY_MRHUNTER-15803D?style=for-the-badge&labelColor=0f2027"/></a>
-<a href="https://github.com/TheWildEye/MrHunter2/issues"><img src="https://img.shields.io/badge/%F0%9F%90%9B_REPORT-Issues-15803D?style=for-the-badge&labelColor=0f2027"/></a>
-<a href="#-credits"><img src="https://img.shields.io/badge/%F0%9F%91%A5_CREDITS-Team-15803D?style=for-the-badge&labelColor=0f2027"/></a>
+<a href="#09--quick-start"><img src="https://img.shields.io/badge/QUICK_START-Install%20in%2060s-15803D?style=for-the-badge&labelColor=0f2027"/></a>
+<a href="#11--commands"><img src="https://img.shields.io/badge/COMMANDS-Reference-15803D?style=for-the-badge&labelColor=0f2027"/></a>
+<a href="#12--why-teams-choose-mrhunter"><img src="https://img.shields.io/badge/WHY_MRHUNTER-15803D?style=for-the-badge&labelColor=0f2027"/></a>
+<a href="https://github.com/TheWildEye/MrHunter2/issues"><img src="https://img.shields.io/badge/REPORT-Issues-15803D?style=for-the-badge&labelColor=0f2027"/></a>
+<a href="#16--credits"><img src="https://img.shields.io/badge/CREDITS-Team-15803D?style=for-the-badge&labelColor=0f2027"/></a>
 
 <br/><br/>
 
-### 🛡️ The security & compliance brain that lives inside your editor.
+### The security & compliance brain that lives inside your editor.
 **No servers. No API keys. No cloud. No noise.** Just open your project, type a command, and get a board-ready security and compliance verdict in seconds.
 
 <img src="assets/divider.svg" width="100%"/>
@@ -27,13 +27,13 @@
 
 <div align="center">
 
-## 🎬 See It In Action
+## 01 · See It In Action
 
-<a href="#-quick-start">
+<a href="#09--quick-start">
 <img src="assets/terminal-demo.svg" alt="live MrHunter scan" width="100%"/>
 </a>
 
-<sub>⬆️ a live MrHunter scan, from one command to a board-ready verdict in seconds</sub>
+<sub>a live MrHunter scan, from one command to a board-ready verdict in seconds</sub>
 
 <img src="assets/divider.svg" width="100%"/>
 
@@ -43,7 +43,7 @@
 
 <div align="center">
 
-## 🏆 Trusted Where It Counts
+## 02 · Trusted Where It Counts
 
 <table>
 <tr>
@@ -74,16 +74,16 @@
 
 <br/>
 
-**🛰️ Trusted across industries**
+**Trusted across industries**
 
-<img src="https://img.shields.io/badge/%F0%9F%92%B3_Payments-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/%F0%9F%8F%A6_FinTech-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/%F0%9F%8F%A5_HealthTech-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/%F0%9F%9B%92_E--Commerce-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/%F0%9F%8D%BD%EF%B8%8F_F%26B_SaaS-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/%F0%9F%93%88_Trading-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/%F0%9F%8E%93_EdTech-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/%F0%9F%9A%9A_Logistics-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/Payments-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/FinTech-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/HealthTech-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/E--Commerce-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/F%26B_SaaS-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/Trading-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/EdTech-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/Logistics-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
 
 <img src="assets/divider.svg" width="100%"/>
 
@@ -93,12 +93,12 @@
 
 <div align="center">
 
-## 🚨 The Reality Most Teams Ignore
+## 03 · The Reality Most Teams Ignore
 
 <table>
 <tr>
-<th>❌ The Old Way</th>
-<th>✅ The MrHunter Way</th>
+<th>The Old Way</th>
+<th>The MrHunter Way</th>
 </tr>
 <tr>
 <td>Security reviews happen <b>after</b> the sprint</td>
@@ -113,7 +113,7 @@
 <td><b>Plain-English verdicts</b> managers &amp; CISOs actually act on</td>
 </tr>
 <tr>
-<td>Compliance discovered at audit time 😱</td>
+<td>Compliance discovered at audit time</td>
 <td>DPDP, PCI DSS, CERT-IN &amp; more checked <b>on every scan</b></td>
 </tr>
 <tr>
@@ -130,7 +130,7 @@
 
 <div align="center">
 
-## ✨ What MrHunter Does
+## 04 · What MrHunter Does
 
 **Five specialized AI engines. One command. A complete security posture.**
 
@@ -142,7 +142,7 @@
 <tr>
 <td width="50%" valign="top">
 
-### 🔍 SAST: Static Analysis
+### SAST: Static Analysis
 Deep code reasoning across **Python, JS/TS, Java, Go, PHP, Ruby, Kotlin &amp; Swift**.
 - SQLi, Command Injection, XSS, SSRF, XXE, deserialization, path traversal &amp; more
 - **Taint tracing**, follows the data from user input to the dangerous sink
@@ -151,7 +151,7 @@ Deep code reasoning across **Python, JS/TS, Java, Go, PHP, Ruby, Kotlin &amp; Sw
 </td>
 <td width="50%" valign="top">
 
-### 🌐 DAST Simulation
+### DAST Simulation
 Runtime attack simulation with **zero network calls**.
 - Models REST, GraphQL, WebSocket, gRPC &amp; OAuth/OIDC flows
 - Simulates auth bypass, BOLA/IDOR, mass assignment, race conditions
@@ -162,7 +162,7 @@ Runtime attack simulation with **zero network calls**.
 <tr>
 <td width="50%" valign="top">
 
-### 🔑 Secret Hunter
+### Secret Hunter
 Scans **every file**, source, scripts, notebooks, `.env`, and gitignored files.
 - **35+ credential types:** AWS, GCP, Azure, Stripe, Razorpay, OpenAI, Anthropic, Gemini, Slack, private keys &amp; more
 - Flags **gitignored vs. committed** so you know the blast radius instantly
@@ -170,7 +170,7 @@ Scans **every file**, source, scripts, notebooks, `.env`, and gitignored files.
 </td>
 <td width="50%" valign="top">
 
-### ⚖️ Compliance Engine
+### Compliance Engine
 Global standards plus seven Indian regulatory frameworks, mapped to your actual code.
 - ISO/IEC 27001 · NIST SP 800-53
 - DPDP Act 2023 · IT Act 2000 · PCI DSS 4.0.1
@@ -182,7 +182,7 @@ Global standards plus seven Indian regulatory frameworks, mapped to your actual 
 <tr>
 <td colspan="2" valign="top">
 
-### 🧠 Security Reviewer: The Triage Layer
+### Security Reviewer: The Triage Layer
 Deduplicates, cross-references and **risk-ranks** everything the other engines find.
 - CVSS v4.0 + OWASP Risk Rating scoring
 - Removes false positives, verifies reachability, separates *real* from *theoretical*
@@ -196,7 +196,7 @@ Deduplicates, cross-references and **risk-ranks** everything the other engines f
 
 <div align="center">
 
-## 🔌 Bring Your Own Agent (BYOA)
+## 05 · Bring Your Own Agent (BYOA)
 
 **MrHunter is agent-agnostic.** It's a portable security &amp; compliance brain you can drop into **any** AI coding agent you already use, no lock-in, no new tool to learn.
 
@@ -208,17 +208,17 @@ Deduplicates, cross-references and **risk-ranks** everything the other engines f
 <tr>
 <td width="50%" valign="top">
 
-### 🧩 Plugs into the agents you already love
-- 🟣 **Claude Code**
-- ✨ **Gemini / Antigravity**
-- 🤖 **ChatGPT Codex**
-- ⚡ **OpenCode**
-- 🧠 **Cursor · Windsurf · Cline** &amp; more
+### Plugs into the agents you already love
+- **Claude Code**
+- **Gemini / Antigravity**
+- **ChatGPT Codex**
+- **OpenCode**
+- **Cursor · Windsurf · Cline** &amp; more
 
 </td>
 <td width="50%" valign="top">
 
-### 🚀 Why teams pick BYOA
+### Why teams pick BYOA
 - **No lock-in**, your agent, your choice
 - **One skill pack, every agent**, write once, run anywhere
 - **Zero infra**, runs locally, inside your editor
@@ -234,41 +234,41 @@ Deduplicates, cross-references and **risk-ranks** everything the other engines f
 
 <div align="center">
 
-## 🏛️ Audit &amp; GRC: Governance, Risk &amp; Compliance
+## 06 · Audit &amp; GRC: Governance, Risk &amp; Compliance
 
 MrHunter isn't just a scanner, it's a **GRC co-pilot**. It turns raw code findings into **audit-ready evidence**, maps every issue to a control framework, and quantifies the **business &amp; legal risk** leadership cares about.
 
-<img src="assets/flag-in.svg" height="13" alt="IN"/> <img src="https://img.shields.io/badge/DPDP_Act-2023_+_Rules_2025-6D28D9?style=flat-square&labelColor=0f2027"/>
-<img src="assets/flag-in.svg" height="13" alt="IN"/> <img src="https://img.shields.io/badge/IT_Act-2000-6D28D9?style=flat-square&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/%F0%9F%92%B3_PCI_DSS-4.0.1-6D28D9?style=flat-square&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F_CERT--IN-Directions_2022-6D28D9?style=flat-square&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/%F0%9F%8F%A6_RBI-Cyber_Resilience_2024-6D28D9?style=flat-square&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/%F0%9F%93%88_SEBI-CSCRF_2024-6D28D9?style=flat-square&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/%F0%9F%8F%A5_IRDAI-Cyber_2023/2026-6D28D9?style=flat-square&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/DPDP_Act-2023_+_Rules_2025-6D28D9?style=flat-square&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/IT_Act-2000-6D28D9?style=flat-square&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/PCI_DSS-4.0.1-6D28D9?style=flat-square&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/CERT--IN-Directions_2022-6D28D9?style=flat-square&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/RBI-Cyber_Resilience_2024-6D28D9?style=flat-square&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/SEBI-CSCRF_2024-6D28D9?style=flat-square&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/IRDAI-Cyber_2023/2026-6D28D9?style=flat-square&labelColor=0f2027"/>
 <br/>
 <img src="https://img.shields.io/badge/ISO_27001-Aligned-6D28D9?style=flat-square&labelColor=0f2027"/>
 <img src="https://img.shields.io/badge/NIST_SP_800--53-Aligned-6D28D9?style=flat-square&labelColor=0f2027"/>
 
 <br/>
 
-### 🌍 Global standards
+### Global standards
 | Standard | What MrHunter Maps | Why It Matters |
 |---|---|---|
-| 🔒 **ISO/IEC 27001** | Access control, cryptography, logging &amp; monitoring, secure SDLC (Annex A controls) | Clears enterprise &amp; vendor security questionnaires |
-| 🧭 **NIST SP 800-53** | AC · AU · SC · SI · RA control families | Required for regulated &amp; government procurement |
+| **ISO/IEC 27001** | Access control, cryptography, logging &amp; monitoring, secure SDLC (Annex A controls) | Clears enterprise &amp; vendor security questionnaires |
+| **NIST SP 800-53** | AC · AU · SC · SI · RA control families | Required for regulated &amp; government procurement |
 
-### <img src="assets/flag-in.svg" height="18" alt="IN"/> Indian regulatory frameworks
+### Indian regulatory frameworks
 | Framework | What MrHunter Checks | Why It Matters |
 |---|---|---|
-| <img src="assets/flag-in.svg" height="12" alt="IN"/> **DPDP Act 2023** | Consent, children's data, breach readiness, erasure | Penalties up to **₹250 Cr** |
-| <img src="assets/flag-in.svg" height="12" alt="IN"/> **IT Act 2000** | SPDI safeguards, disclosure, confidentiality | Criminal + civil liability |
-| 💳 **PCI DSS 4.0.1** | PAN/CVV storage, TLS, MFA, logging | Card-brand fines &amp; suspension |
-| 🛡️ **CERT-IN 2022** | 6-hour reporting, 180-day logs, NTP, MFA | Statutory obligation |
-| 🏦 **RBI Cyber 2024** | Device binding, tokenization, rate limits | PSS Act penalties |
-| 📈 **SEBI CSCRF** | Data classification, SOC, VAPT, SBOM | Exchange + SEBI action |
-| 🏥 **IRDAI Cyber** | PII/health encryption, board policy, VAPT | Discretionary + IT Act |
+| **DPDP Act 2023** | Consent, children's data, breach readiness, erasure | Penalties up to **₹250 Cr** |
+| **IT Act 2000** | SPDI safeguards, disclosure, confidentiality | Criminal + civil liability |
+| **PCI DSS 4.0.1** | PAN/CVV storage, TLS, MFA, logging | Card-brand fines &amp; suspension |
+| **CERT-IN 2022** | 6-hour reporting, 180-day logs, NTP, MFA | Statutory obligation |
+| **RBI Cyber 2024** | Device binding, tokenization, rate limits | PSS Act penalties |
+| **SEBI CSCRF** | Data classification, SOC, VAPT, SBOM | Exchange + SEBI action |
+| **IRDAI Cyber** | PII/health encryption, board policy, VAPT | Discretionary + IT Act |
 
-### 📋 Built for audit season
+### Built for audit season
 - **Evidence-first** findings (file + line + data flow), defensible in a VAPT report
 - **Control mapping**, every finding ties to a framework control
 - **Penalty exposure in ₹ / $**, plain-English risk for the board
@@ -282,7 +282,7 @@ MrHunter isn't just a scanner, it's a **GRC co-pilot**. It turns raw code findin
 
 <div align="center">
 
-## 🏗️ Architecture
+## 07 · Architecture
 
 **One command fans out to five engines. One reviewer unifies the verdict.**
 
@@ -292,17 +292,17 @@ MrHunter isn't just a scanner, it's a **GRC co-pilot**. It turns raw code findin
 
 ```mermaid
 flowchart LR
-    A([👨‍💻 Developer]) --> B{"/mrhunter-*"}
-    B --> C["🔍 SAST Engine"]
-    B --> D["🌐 DAST Engine"]
-    B --> E["🔑 Secret Hunter"]
-    B --> F["⚖️ Compliance Engine"]
-    C --> G(["🧠 Security Reviewer"])
+    A([Developer]) --> B{"/mrhunter-*"}
+    B --> C["SAST Engine"]
+    B --> D["DAST Engine"]
+    B --> E["Secret Hunter"]
+    B --> F["Compliance Engine"]
+    C --> G(["Security Reviewer"])
     D --> G
     E --> G
     F --> G
-    G --> H["📊 Risk-Ranked Report"]
-    G --> I["📄 Exportable .txt"]
+    G --> H["Risk-Ranked Report"]
+    G --> I["Exportable .txt"]
 
     style A fill:#0f2027,stroke:#22D3EE,color:#fff
     style B fill:#203a43,stroke:#22D3EE,color:#fff
@@ -325,7 +325,7 @@ your-project/
 
 <div align="center">
 
-## 🛡️ Built on Zero Trust
+## 08 · Built on Zero Trust
 
 MrHunter follows a **Zero Trust** model, *never trust, always verify*, applied to the scanner itself. Nothing about your code, secrets, or findings is implicitly trusted with any external system.
 
@@ -348,7 +348,7 @@ MrHunter follows a **Zero Trust** model, *never trust, always verify*, applied t
 
 <div align="center">
 
-## ⚡ Quick Start
+## 09 · Quick Start
 
 **Prerequisite:** [OpenCode](https://opencode.ai) + Git. That's it. No `npm`, no `pip`, no keys.
 
@@ -374,9 +374,9 @@ opencode
 /mrhunter-quick-scan
 ```
 
-💡 Want it in **every** project? Add `--global` (macOS/Linux) or `-Global` (Windows) to the install command.
+Want it in **every** project? Add `--global` (macOS/Linux) or `-Global` (Windows) to the install command.
 
-🎉 That's it. **No background services. Nothing leaves your machine.**
+That's it. **No background services. Nothing leaves your machine.**
 
 <img src="assets/divider.svg" width="100%"/>
 
@@ -386,7 +386,7 @@ opencode
 
 <div align="center">
 
-## 📦 Manual Install
+## 10 · Manual Install
 
 Prefer to do it by hand? Just clone and copy. No scripts, no surprises.
 
@@ -416,7 +416,7 @@ Then open OpenCode in your project and run `/mrhunter-quick-scan`.
 
 <div align="center">
 
-## 🎯 Commands
+## 11 · Commands
 
 | Command | What It Does | Best For |
 |---|---|---|
@@ -425,7 +425,7 @@ Then open OpenCode in your project and run `/mrhunter-quick-scan`.
 | <kbd>/mrhunter-compliance-audit</kbd> | **Deep Indian regulatory audit** across 7 frameworks | Audits, board &amp; CISO reviews |
 | <kbd>/mrhunter-fix-issue</kbd> | **Remediation advisor**, exact before/after fix guidance | Fixing a specific finding |
 
-📄 Every report ends with an optional **one-click `.txt` export**, technical detail *and* a plain-English management summary.
+Every report ends with an optional **one-click `.txt` export**, technical detail *and* a plain-English management summary.
 
 <img src="assets/divider.svg" width="100%"/>
 
@@ -435,13 +435,13 @@ Then open OpenCode in your project and run `/mrhunter-quick-scan`.
 
 <div align="center">
 
-## 💡 Why Teams Choose MrHunter
+## 12 · Why Teams Choose MrHunter
 
 <table>
 <tr>
 <td align="center" width="33%">
 
-### 👔 For Team Leads
+### For Team Leads
 - Catch issues **before code review**
 - One command, zero CI wiring
 - Actionable fixes, not lectures
@@ -449,7 +449,7 @@ Then open OpenCode in your project and run `/mrhunter-quick-scan`.
 </td>
 <td align="center" width="33%">
 
-### 🧑‍💻 For Security Engineers
+### For Security Engineers
 - **AppSec + product** coverage
 - Taint-aware SAST, fewer false positives
 - `source → sink` evidence per finding
@@ -457,7 +457,7 @@ Then open OpenCode in your project and run `/mrhunter-quick-scan`.
 </td>
 <td align="center" width="33%">
 
-### 💻 For Software Engineers
+### For Software Engineers
 - Fix guidance with **before / after** code
 - No new tooling to learn
 - Runs in your editor, as you build
@@ -467,7 +467,7 @@ Then open OpenCode in your project and run `/mrhunter-quick-scan`.
 <tr>
 <td align="center" width="33%">
 
-### 🔁 For DevSecOps
+### For DevSecOps
 - Drops into **any CI/CD**
 - Key-free, zero infrastructure
 - Gate merges on **real** findings
@@ -475,7 +475,7 @@ Then open OpenCode in your project and run `/mrhunter-quick-scan`.
 </td>
 <td align="center" width="33%">
 
-### 🛡️ For CISOs
+### For CISOs
 - Compliance exposure, **quantified**
 - Evidence-first, audit-defensible
 - Frameworks mapped to real code
@@ -483,7 +483,7 @@ Then open OpenCode in your project and run `/mrhunter-quick-scan`.
 </td>
 <td align="center" width="33%">
 
-### 📊 For Managers
+### For Managers
 - Plain-English risk summaries
 - **Penalty exposure in ₹ / $**
 - Ship faster, sleep better
@@ -500,18 +500,18 @@ Then open OpenCode in your project and run `/mrhunter-quick-scan`.
 
 <div align="center">
 
-## 🥊 How We Compare
+## 13 · How We Compare
 
 | Capability | Traditional Scanners | MrHunter |
-|---|:---:|:---:|
-| Static analysis (SAST) | ✅ | ✅ |
-| Runtime attack simulation (DAST) | 💰 Separate product | ✅ Built-in |
-| Secret detection | ➖ | ✅ 35+ types |
-| Compliance mapping | ❌ | ✅ ISO 27001 · NIST + 7 Indian laws |
-| Zero infrastructure | ❌ | ✅ |
-| Business-ready reports | ➖ | ✅ |
-| Cost | 💸 Licenses | 🆓 Zero |
-| Runs inside your editor | ❌ | ✅ |
+|---|---|---|
+| Static analysis (SAST) | Yes | Yes |
+| Runtime attack simulation (DAST) | Separate product | Built-in |
+| Secret detection | Limited | 35+ types |
+| Compliance mapping | No | ISO 27001 · NIST + 7 Indian laws |
+| Zero infrastructure | No | Yes |
+| Business-ready reports | Limited | Yes |
+| Cost | Licensed | Zero |
+| Runs inside your editor | No | Yes |
 
 <img src="assets/divider.svg" width="100%"/>
 
@@ -521,7 +521,7 @@ Then open OpenCode in your project and run `/mrhunter-quick-scan`.
 
 <div align="center">
 
-## ❓ FAQ
+## 14 · FAQ
 
 <details>
 <summary><b>Does my code ever leave my machine?</b></summary>
@@ -567,7 +567,7 @@ Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift, with OWAS
 
 <div align="center">
 
-## 💬 Wall of Love
+## 15 · Wall of Love
 
 <img src="assets/wall-of-love.svg" alt="What people say about MrHunter" width="100%"/>
 
@@ -579,13 +579,13 @@ Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift, with OWAS
 
 <div align="center">
 
-## 👥 Credits
+## 16 · Credits
 
 <table>
 <tr>
 <td align="center" width="50%">
 
-### 🧑‍💻 Vyom Nagpal
+### Vyom Nagpal
 **Builder**
 <br/>
 <sub>Security Engineering &amp; GRC</sub>
@@ -597,7 +597,7 @@ Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift, with OWAS
 </td>
 <td align="center" width="50%">
 
-### 🤝 Sahil Patel
+### Sahil Patel
 **Collaborator**
 <br/>
 <sub>Data Science @ Petpooja</sub>
@@ -608,7 +608,7 @@ Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift, with OWAS
 </tr>
 </table>
 
-💬 **Found a false positive? Want a new check?**
+**Found a false positive? Want a new check?**
 Open an [issue](https://github.com/TheWildEye/MrHunter2/issues) or reach out, we ship fast.
 
 <img src="assets/divider.svg" width="100%"/>
@@ -619,13 +619,13 @@ Open an [issue](https://github.com/TheWildEye/MrHunter2/issues) or reach out, we
 
 <div align="center">
 
-## 📜 License
+## 17 · License
 
 Released under the **MIT License**, free to use, fork, and extend.
 
 <br/>
 
-**⭐ If MrHunter saved you time (or a penalty), drop a star, it fuels the next engine.**
+**If MrHunter saved you time (or a penalty), drop a star, it fuels the next engine.**
 
 <img src="assets/divider.svg" width="100%"/>
 
