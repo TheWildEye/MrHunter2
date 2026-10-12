@@ -1,11 +1,53 @@
-# Gitleaks configuration for MrHunter
+# Gitleaks configuration — mirrors the credential types the secret-hunter agent
+# looks for. Keeps Gitleaks' built-in rules and adds the ones it does not cover.
 #
-# The MrHunter/test-cases/ folder contains INTENTIONALLY FAKE secrets that exist
-# only to validate the scanner. They are excluded here so secret scanning does
-# not raise false positives. Everything else is scanned normally.
+# The MrHunter/test-cases/ folder contains INTENTIONALLY FAKE secrets used only
+# to validate the scanner, so it is excluded from the normal repo scan.
 
 [extend]
 useDefault = true
+
+[[rules]]
+id = "mrhunter-gemini-new"
+description = "Google Gemini / AI Studio API key (2025 'AQ.' format)"
+regex = '''AQ\.[A-Za-z0-9_\-]{30,}'''
+tags = ["key", "google", "gemini"]
+
+[[rules]]
+id = "mrhunter-perplexity"
+description = "Perplexity AI API key"
+regex = '''pplx-[A-Za-z0-9]{48}'''
+tags = ["key", "perplexity"]
+
+[[rules]]
+id = "mrhunter-razorpay"
+description = "Razorpay API key (live/test)"
+regex = '''rzp_(live|test)_[A-Za-z0-9]{14,}'''
+tags = ["key", "razorpay"]
+
+[[rules]]
+id = "mrhunter-huggingface"
+description = "Hugging Face access token"
+regex = '''hf_[A-Za-z0-9]{34,}'''
+tags = ["key", "huggingface"]
+
+[[rules]]
+id = "mrhunter-anthropic"
+description = "Anthropic (Claude) API key"
+regex = '''sk-ant-api03-[0-9A-Za-z_\-]{80,}AA'''
+tags = ["key", "anthropic"]
+
+[[rules]]
+id = "mrhunter-db-connection-string"
+description = "Database/service connection string containing credentials"
+regex = '''(?i)(mongodb\+srv|mongodb|postgresql|postgres|mysql|mariadb|redis|amqp)://[^:\s"']+:[^@\s"']+@[^"'\s]+'''
+tags = ["connection-string", "database"]
+
+[[rules]]
+id = "mrhunter-jwt-secret"
+description = "Hardcoded JWT signing secret"
+regex = '''(?i)(jwt[_-]?secret|jwt[_-]?signing[_-]?key)["'\s:=]{1,4}["']?[A-Za-z0-9_\-]{12,}'''
+tags = ["secret", "jwt"]
 
 [allowlist]
 description = "Intentional fake secrets in scanner test fixtures"

@@ -67,3 +67,14 @@ jobs:
     uses: ./.github/workflows/security-assessment.yml
     with:
       exclude-paths: "MrHunter/test-cases,node_modules,vendor,dist,build,.git"
+
+  # ─────────────────────────────────────────────────────────────
+  #  Scanner self-test — proves the SAST + secret rules actually detect the
+  #  plugin's own fixtures (guards against rule drift / coverage gaps).
+  # ─────────────────────────────────────────────────────────────
+  self-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate scanners against MrHunter/test-cases
+        run: bash scripts/security-self-test.sh

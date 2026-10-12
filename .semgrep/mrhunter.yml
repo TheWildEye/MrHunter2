@@ -1,0 +1,134 @@
+# MrHunter SAST rules — mirrors the checks the sast-engine agent performs.
+# Run: semgrep scan --config .semgrep/mrhunter.yml --error
+rules:
+  - id: mrhunter-sql-injection
+    languages: [python]
+    severity: ERROR
+    message: "SQL injection (CWE-89): untrusted input interpolated into a SQL query"
+    metadata: { cwe: "CWE-89", owasp: "A03:2021" }
+    patterns:
+      - pattern-either:
+          - pattern: "$CUR.execute(\"...\" + ...)"
+          - pattern: "$CUR.execute(\"...\" % ...)"
+          - pattern: "$CUR.execute(\"...\".format(...))"
+          - pattern: "$CUR.execute(f\"...\")"
+          - pattern: "$CUR.executemany(\"...\" + ...)"
+          - pattern: "$CUR.execute(... + \"...\")"
+
+  - id: mrhunter-sql-injection-fstring
+    languages: [python]
+    severity: ERROR
+    message: "SQL injection (CWE-89): f-string SQL with interpolation"
+    metadata: { cwe: "CWE-89", owasp: "A03:2021" }
+    pattern-regex: '(?i)f["''][^"''\n]*\b(SELECT|INSERT|UPDATE|DELETE)\b[^"''\n]*\{[^}]+\}'
+
+  - id: mrhunter-command-injection
+    languages: [python]
+    severity: ERROR
+    message: "Command injection (CWE-78): shell execution with dynamic input"
+    metadata: { cwe: "CWE-78", owasp: "A03:2021" }
+    pattern-either:
+      - pattern: "os.system(...)"
+      - pattern: "os.popen(...)"
+      - pattern: "subprocess.$F(..., shell=True, ...)"
+      - pattern: "eval(...)"
+      - pattern: "exec(...)"
+
+  - id: mrhunter-insecure-deserialization
+    languages: [python]
+    severity: ERROR
+    message: "Insecure deserialization (CWE-502)"
+    metadata: { cwe: "CWE-502", owasp: "A08:2021" }
+    pattern-either:
+      - pattern: "pickle.load(...)"
+      - pattern: "pickle.loads(...)"
+      - pattern: "yaml.load(...)"
+      - pattern: "yaml.unsafe_load(...)"
+
+  - id: mrhunter-ssrf
+    mode: taint
+    languages: [python]
+    severity: ERROR
+    message: "SSRF (CWE-918): user-controlled URL passed to an outbound request"
+    metadata: { cwe: "CWE-918", owasp: "A10:2021" }
+    pattern-sources:
+      - pattern: "request.args.get(...)"
+      - pattern: "request.args[...]"
+      - pattern: "request.json.get(...)"
+      - pattern: "request.json[...]"
+      - pattern: "request.form.get(...)"
+    pattern-sinks:
+      - pattern: "requests.get(...)"
+      - pattern: "requests.post(...)"
+      - pattern: "requests.request(...)"
+      - pattern: "urllib.request.urlopen(...)"
+
+  - id: mrhunter-insecure-random
+    languages: [python]
+    severity: WARNING
+    message: "Insecure randomness (CWE-330): use secrets/os.urandom for security values"
+    metadata: { cwe: "CWE-330" }
+    pattern-either:
+      - pattern: "random.random()"
+      - pattern: "random.randint(...)"
+      - pattern: "random.choice(...)"
+
+  - id: mrhunter-debug-mode
+    languages: [python]
+    severity: WARNING
+    message: "Debug mode enabled (CWE-489)"
+    metadata: { cwe: "CWE-489" }
+    pattern-either:
+      - pattern: "$APP.run(..., debug=True, ...)"
+      - pattern: "$APP.debug = True"
+
+  - id: mrhunter-xss-innerhtml
+    languages: [javascript, typescript]
+    severity: ERROR
+    message: "XSS (CWE-79): dynamic HTML assignment"
+    metadata: { cwe: "CWE-79", owasp: "A03:2021" }
+    pattern-either:
+      - pattern: "$EL.innerHTML = $X"
+      - pattern: "$EL.outerHTML = $X"
+      - pattern: "document.write(...)"
+      - pattern: "$EL.insertAdjacentHTML(...)"
+
+  - id: mrhunter-xss-dangerouslysetinnerhtml
+    languages: [javascript, typescript]
+    severity: ERROR
+    message: "XSS (CWE-79): dangerouslySetInnerHTML"
+    metadata: { cwe: "CWE-79", owasp: "A03:2021" }
+    pattern: "dangerouslySetInnerHTML={{__html: ...}}"
+
+  - id: mrhunter-xss-regex
+    languages: [javascript, typescript]
+    severity: ERROR
+    message: "XSS (CWE-79): dynamic HTML sink (innerHTML / document.write / dangerouslySetInnerHTML)"
+    metadata: { cwe: "CWE-79", owasp: "A03:2021" }
+    pattern-regex: '(?i)(\.(inner|outer)HTML\s*=)|(document\.write\s*\()|(insertAdjacentHTML\s*\()|(dangerouslySetInnerHTML)'
+
+  - id: mrhunter-open-cors
+    languages: [javascript, typescript]
+    severity: WARNING
+    message: "Open CORS (CWE-942): wildcard origin"
+    metadata: { cwe: "CWE-942" }
+    pattern-either:
+      - pattern: "cors({..., origin: '*', ...})"
+      - pattern: "cors({..., origin: \"*\", ...})"
+      - pattern: "$RES.setHeader('Access-Control-Allow-Origin', '*')"
+
+  - id: mrhunter-jwt-alg-none
+    languages: [javascript, typescript]
+    severity: ERROR
+    message: "JWT 'none' algorithm allowed (CWE-347)"
+    metadata: { cwe: "CWE-347", owasp: "A07:2021" }
+    pattern-either:
+      - pattern: "jwt.verify($T, $S, {..., algorithms: [..., 'none', ...], ...})"
+      - pattern: "jwt.verify($T, $S, {..., algorithms: [..., \"none\", ...], ...})"
+
+  - id: mrhunter-jwt-decode
+    languages: [javascript, typescript]
+    severity: WARNING
+    message: "JWT decoded without signature verification (CWE-347)"
+    metadata: { cwe: "CWE-347" }
+    pattern: "jwt.decode(...)"

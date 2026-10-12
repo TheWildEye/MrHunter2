@@ -53,11 +53,14 @@ jobs:
         run: |
           set -e
           python3 -m pip install --quiet semgrep
+          CONFIGS="--config ${{ inputs.semgrep-config }}"
+          # If this repo ships MrHunter's own rules, use them too (aligned with the plugin).
+          [ -f .semgrep/mrhunter.yml ] && CONFIGS="$CONFIGS --config .semgrep/mrhunter.yml"
           EXCLUDES=""
           IFS=',' read -ra PATHS <<< "${{ inputs.exclude-paths }}"
           for p in "${PATHS[@]}"; do
             p="$(echo "$p" | xargs)"
             [ -n "$p" ] && EXCLUDES="$EXCLUDES --exclude $p"
           done
-          semgrep scan --config ${{ inputs.semgrep-config }} --error $EXCLUDES
+          semgrep scan $CONFIGS --error $EXCLUDES
           echo "SAST scan clean"
