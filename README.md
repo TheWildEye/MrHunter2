@@ -83,7 +83,7 @@
 </tr>
 </table>
 
-> 💪 **Battle-tested at Petpooja, India's largest F&amp;B SaaS platform**, where the MrHunter engine was first hardened against real-world, high-scale production code.
+<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/battle-tested-a.svg" alt="Battle-tested at Petpooja — India's largest F&amp;B SaaS platform" width="100%"/>
 
 <br/>
 
