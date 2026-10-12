@@ -76,14 +76,14 @@
 
 **Trusted across industries**
 
-<img src="https://img.shields.io/badge/Payments-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/FinTech-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/HealthTech-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/E--Commerce-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/F%26B_SaaS-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/Trading-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/EdTech-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/Logistics-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/Payments-15803D?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/FinTech-15803D?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/HealthTech-15803D?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/E--Commerce-15803D?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/F%26B_SaaS-15803D?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/Trading-15803D?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/EdTech-15803D?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/Logistics-15803D?style=for-the-badge&labelColor=0f2027"/>
 
 <img src="assets/divider.svg" width="100%"/>
 
@@ -132,65 +132,41 @@
 
 ## 04 · What MrHunter Does
 
-**Five specialized AI engines. One command. A complete security posture.**
+Five specialized engines behind one command.
 
 <img src="assets/divider.svg" width="100%"/>
 
 </div>
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
 ### SAST: Static Analysis
 Deep code reasoning across **Python, JS/TS, Java, Go, PHP, Ruby, Kotlin &amp; Swift**.
-- SQLi, Command Injection, XSS, SSRF, XXE, deserialization, path traversal &amp; more
-- **Taint tracing**, follows the data from user input to the dangerous sink
-- **Logic-over-patterns** engine: fewer false positives, more real bugs
-
-</td>
-<td width="50%" valign="top">
+- SQLi, command injection, XSS, SSRF, XXE, deserialization, path traversal and more
+- Taint tracing from user input to the dangerous sink
+- Logic-over-patterns engine: fewer false positives, more real bugs
 
 ### DAST Simulation
-Runtime attack simulation with **zero network calls**.
-- Models REST, GraphQL, WebSocket, gRPC &amp; OAuth/OIDC flows
-- Simulates auth bypass, BOLA/IDOR, mass assignment, race conditions
-- Traces **full exploit chains**, not isolated symptoms
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+Runtime attack simulation with zero network calls.
+- Models REST, GraphQL, WebSocket, gRPC and OAuth/OIDC flows
+- Simulates auth bypass, BOLA/IDOR, mass assignment and race conditions
+- Traces full exploit chains, not isolated symptoms
 
 ### Secret Hunter
-Scans **every file**, source, scripts, notebooks, `.env`, and gitignored files.
-- **35+ credential types:** AWS, GCP, Azure, Stripe, Razorpay, OpenAI, Anthropic, Gemini, Slack, private keys &amp; more
-- Flags **gitignored vs. committed** so you know the blast radius instantly
-
-</td>
-<td width="50%" valign="top">
+Scans every file, including `.env` and gitignored files.
+- 35+ credential types: AWS, GCP, Azure, Stripe, Razorpay, OpenAI, Anthropic, Gemini, Slack, private keys and more
+- Flags gitignored vs. committed so you know the blast radius instantly
 
 ### Compliance Engine
-Global standards plus seven Indian regulatory frameworks, mapped to your actual code.
+Global standards plus seven Indian regulatory frameworks, mapped to your code.
 - ISO/IEC 27001 · NIST SP 800-53
 - DPDP Act 2023 · IT Act 2000 · PCI DSS 4.0.1
 - CERT-IN 2022 · RBI · SEBI CSCRF · IRDAI
-- **Exact control/section + penalty exposure** for every finding
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
+- Exact control/section and penalty exposure for every finding
 
 ### Security Reviewer: The Triage Layer
-Deduplicates, cross-references and **risk-ranks** everything the other engines find.
+Deduplicates, cross-references and risk-ranks findings from the other engines.
 - CVSS v4.0 + OWASP Risk Rating scoring
-- Removes false positives, verifies reachability, separates *real* from *theoretical*
-- Produces **one board-ready report**, technical depth for engineers, plain English for leadership
-
-</td>
-</tr>
-</table>
+- Removes false positives, verifies reachability, separates real from theoretical
+- Produces one board-ready report: technical depth for engineers, plain English for leadership
 
 ---
 
@@ -198,37 +174,20 @@ Deduplicates, cross-references and **risk-ranks** everything the other engines f
 
 ## 05 · Bring Your Own Agent (BYOA)
 
-**MrHunter is agent-agnostic.** It's a portable security &amp; compliance brain you can drop into **any** AI coding agent you already use, no lock-in, no new tool to learn.
+MrHunter is agent-agnostic. Drop the same skill pack into any AI coding agent you already use.
 
 <img src="assets/divider.svg" width="100%"/>
 
 </div>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+Works with **Claude Code**, **Gemini / Antigravity**, **ChatGPT Codex**, **OpenCode**, **Cursor**, **Windsurf**, **Cline** and more.
 
-### Plugs into the agents you already love
-- **Claude Code**
-- **Gemini / Antigravity**
-- **ChatGPT Codex**
-- **OpenCode**
-- **Cursor · Windsurf · Cline** &amp; more
+- No lock-in: your agent, your choice
+- One skill pack, every agent: write once, run anywhere
+- Zero infra: runs locally, inside your editor
+- Future-proof: swap agents anytime, keep MrHunter
 
-</td>
-<td width="50%" valign="top">
-
-### Why teams pick BYOA
-- **No lock-in**, your agent, your choice
-- **One skill pack, every agent**, write once, run anywhere
-- **Zero infra**, runs locally, inside your editor
-- **Future-proof**, swap agents anytime, keep MrHunter
-
-</td>
-</tr>
-</table>
-
-<sub>Same engines. Same reports. Same compliance verdicts, whichever agent you point at your code.</sub>
+<sub>Same engines, same reports, same compliance verdicts, whichever agent you point at your code.</sub>
 
 ---
 
@@ -237,19 +196,6 @@ Deduplicates, cross-references and **risk-ranks** everything the other engines f
 ## 06 · Audit &amp; GRC: Governance, Risk &amp; Compliance
 
 MrHunter isn't just a scanner, it's a **GRC co-pilot**. It turns raw code findings into **audit-ready evidence**, maps every issue to a control framework, and quantifies the **business &amp; legal risk** leadership cares about.
-
-<img src="https://img.shields.io/badge/DPDP_Act-2023_+_Rules_2025-6D28D9?style=flat-square&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/IT_Act-2000-6D28D9?style=flat-square&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/PCI_DSS-4.0.1-6D28D9?style=flat-square&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/CERT--IN-Directions_2022-6D28D9?style=flat-square&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/RBI-Cyber_Resilience_2024-6D28D9?style=flat-square&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/SEBI-CSCRF_2024-6D28D9?style=flat-square&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/IRDAI-Cyber_2023/2026-6D28D9?style=flat-square&labelColor=0f2027"/>
-<br/>
-<img src="https://img.shields.io/badge/ISO_27001-Aligned-6D28D9?style=flat-square&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/NIST_SP_800--53-Aligned-6D28D9?style=flat-square&labelColor=0f2027"/>
-
-<br/>
 
 ### Global standards
 | Standard | What MrHunter Maps | Why It Matters |
@@ -437,60 +383,14 @@ Every report ends with an optional **one-click `.txt` export**, technical detail
 
 ## 12 · Why Teams Choose MrHunter
 
-<table>
-<tr>
-<td align="center" width="33%">
-
-### For Team Leads
-- Catch issues **before code review**
-- One command, zero CI wiring
-- Actionable fixes, not lectures
-
-</td>
-<td align="center" width="33%">
-
-### For Security Engineers
-- **AppSec + product** coverage
-- Taint-aware SAST, fewer false positives
-- `source → sink` evidence per finding
-
-</td>
-<td align="center" width="33%">
-
-### For Software Engineers
-- Fix guidance with **before / after** code
-- No new tooling to learn
-- Runs in your editor, as you build
-
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-
-### For DevSecOps
-- Drops into **any CI/CD**
-- Key-free, zero infrastructure
-- Gate merges on **real** findings
-
-</td>
-<td align="center" width="33%">
-
-### For CISOs
-- Compliance exposure, **quantified**
-- Evidence-first, audit-defensible
-- Frameworks mapped to real code
-
-</td>
-<td align="center" width="33%">
-
-### For Managers
-- Plain-English risk summaries
-- **Penalty exposure in ₹ / $**
-- Ship faster, sleep better
-
-</td>
-</tr>
-</table>
+| Role | What they get |
+|---|---|
+| **Team Leads** | Catch issues before code review, one command, no CI wiring |
+| **Security Engineers** | AppSec + product coverage, taint-aware SAST, source → sink evidence |
+| **Software Engineers** | Before / after fix guidance, no new tooling, runs in your editor |
+| **DevSecOps** | Drops into any CI/CD, key-free, gate merges on real findings |
+| **CISOs** | Compliance exposure quantified, evidence-first, frameworks mapped to code |
+| **Managers** | Plain-English risk summaries, penalty exposure in ₹ / $ |
 
 <img src="assets/divider.svg" width="100%"/>
 
@@ -585,10 +485,9 @@ Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift, with OWAS
 <tr>
 <td align="center" width="50%">
 
-### Vyom Nagpal
-**Builder**
+**Vyom Nagpal** — Builder
 <br/>
-<sub>Security Engineering &amp; GRC</sub>
+Security Engineering &amp; GRC
 <br/><br/>
 <a href="mailto:vyomnagpal7@gmail.com"><img src="https://img.shields.io/badge/Email-vyomnagpal7@gmail.com-334155?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f2027"/></a>
 <br/>
@@ -597,10 +496,9 @@ Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift, with OWAS
 </td>
 <td align="center" width="50%">
 
-### Sahil Patel
-**Collaborator**
+**Sahil Patel** — Collaborator
 <br/>
-<sub>Data Science @ Petpooja</sub>
+Data Science @ Petpooja
 <br/><br/>
 <a href="https://www.linkedin.com/in/sahil-patel1815/"><img src="assets/badge-linkedin-sahil-patel1815.svg" alt="LinkedIn"/></a>
 
