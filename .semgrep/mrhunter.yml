@@ -93,13 +93,6 @@ rules:
       - pattern: "document.write(...)"
       - pattern: "$EL.insertAdjacentHTML(...)"
 
-  - id: mrhunter-xss-dangerouslysetinnerhtml
-    languages: [javascript, typescript]
-    severity: ERROR
-    message: "XSS (CWE-79): dangerouslySetInnerHTML"
-    metadata: { cwe: "CWE-79", owasp: "A03:2021" }
-    pattern: "dangerouslySetInnerHTML={{__html: ...}}"
-
   - id: mrhunter-xss-regex
     languages: [javascript, typescript]
     severity: ERROR

@@ -22,11 +22,11 @@ fi
 
 # ── Secrets: Gitleaks (with the fixture allowlist stripped) must detect them ─
 sed '/^\[allowlist\]/,$d' .gitleaks.toml > /tmp/gl-selftest.toml
-GL_VER=8.21.2
+GL_VER=8.30.1
 curl -sSL "https://github.com/gitleaks/gitleaks/releases/download/v${GL_VER}/gitleaks_${GL_VER}_linux_x64.tar.gz" \
   | tar -xz -C /tmp gitleaks
-/tmp/gitleaks detect --source MrHunter/test-cases --config /tmp/gl-selftest.toml \
-  --no-git --report-format json --report-path /tmp/gl.json >/dev/null 2>&1 || true
+/tmp/gitleaks dir MrHunter/test-cases --config /tmp/gl-selftest.toml \
+  --report-format json --report-path /tmp/gl.json >/dev/null 2>&1 || true
 SECRETS=$(python3 -c "import json; print(len(json.load(open('/tmp/gl.json'))))" 2>/dev/null || echo 0)
 echo "Secret findings on test-cases: $SECRETS"
 if [ "$SECRETS" -lt 3 ]; then
