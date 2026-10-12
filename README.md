@@ -440,6 +440,40 @@ Remove-Item -Recurse -Force _mrhunter
 
 <div align="center">
 
+## 🛡️ Pre-push Guard
+
+> **Stop a bad push before it leaves your machine.** A local git hook scans what you're about to push, shows any secrets / risky patterns, and asks for your consent — it only pushes if you say yes.
+
+</div>
+
+Enable it once per clone:
+
+```bash
+git config core.hooksPath .githooks
+```
+
+From then on, every `git push` will:
+
+1. Scan the files in your outgoing commits for secrets and high-risk patterns.
+2. Print anything suspicious, with file + line.
+3. Prompt `Push anyway? [y/N]` — anything other than `y` **blocks the push**.
+
+```
+🔴 [SECRET] app/config.py
+   12: API_KEY = "AKIA..."
+🟡 [RISKY ] api/users.py
+   42: cursor.execute("SELECT * FROM users WHERE id=" + uid)
+
+Push anyway? [y/N]
+```
+
+> 🚨 Emergency bypass: `git push --no-verify`
+> ℹ️ Fast, dependency-free, grep-based guard — not the full MrHunter scan (that runs inside your AI agent).
+
+---
+
+<div align="center">
+
 ## 💡 Why Teams Choose MrHunter
 
 <table>
