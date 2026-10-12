@@ -1,0 +1,14 @@
+# Gitleaks configuration for MrHunter
+#
+# The MrHunter/test-cases/ folder contains INTENTIONALLY FAKE secrets that exist
+# only to validate the scanner. They are excluded here so secret scanning does
+# not raise false positives. Everything else is scanned normally.
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Intentional fake secrets in scanner test fixtures"
+paths = [
+  '''MrHunter/test-cases/.*''',
+]

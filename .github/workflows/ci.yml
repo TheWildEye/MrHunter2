@@ -2,10 +2,14 @@ name: CI
 
 on:
   push:
-    branches: [main]
+    branches: [main, staging]
   pull_request:
+    branches: [main, staging]
 
 jobs:
+  # ─────────────────────────────────────────────────────────────
+  #  Structure & integrity checks
+  # ─────────────────────────────────────────────────────────────
   validate:
     runs-on: ubuntu-latest
     steps:
@@ -53,3 +57,31 @@ jobs:
           test -f opencode.json
           test -f AGENTS.md
           echo "installer OK"
+
+  # ─────────────────────────────────────────────────────────────
+  #  Security assessment (SAST + secret scanning)
+  #  Compliance audit is intentionally NOT run here.
+  # ─────────────────────────────────────────────────────────────
+  security:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Secret scanning (Gitleaks)
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: SAST (Semgrep)
+        run: |
+          set -e
+          python3 -m pip install --quiet semgrep
+          semgrep scan \
+            --config p/security-audit \
+            --error \
+            --exclude test-cases \
+            --exclude .github \
+            --exclude assets
+          echo "SAST scan clean"
