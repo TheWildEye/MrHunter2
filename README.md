@@ -431,7 +431,7 @@ Then open OpenCode in your project and run `/mrhunter-quick-scan`.
 
 <table>
 <tr>
-<td align="center" width="25%">
+<td align="center" width="33%">
 
 ### 👔 For Team Leads
 - Catch issues **before code review**
@@ -439,7 +439,7 @@ Then open OpenCode in your project and run `/mrhunter-quick-scan`.
 - Actionable fixes, not lectures
 
 </td>
-<td align="center" width="25%">
+<td align="center" width="33%">
 
 ### 🧑‍💻 For Security Engineers
 - **AppSec + product** coverage
@@ -447,7 +447,25 @@ Then open OpenCode in your project and run `/mrhunter-quick-scan`.
 - `source → sink` evidence per finding
 
 </td>
-<td align="center" width="25%">
+<td align="center" width="33%">
+
+### 💻 For Software Engineers
+- Fix guidance with **before / after** code
+- No new tooling to learn
+- Runs in your editor, as you build
+
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+
+### 🔁 For DevSecOps
+- Drops into **any CI/CD**
+- Key-free, zero infrastructure
+- Gate merges on **real** findings
+
+</td>
+<td align="center" width="33%">
 
 ### 🛡️ For CISOs
 - Compliance exposure, **quantified**
@@ -455,7 +473,7 @@ Then open OpenCode in your project and run `/mrhunter-quick-scan`.
 - Frameworks mapped to real code
 
 </td>
-<td align="center" width="25%">
+<td align="center" width="33%">
 
 ### 📊 For Managers
 - Plain-English risk summaries
