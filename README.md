@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/header-hacker.svg" width="100%" alt="MrHunter"/>
+<img src="assets/header-hacker.svg" width="100%" alt="MrHunter"/>
 
 <a href="#-quick-start">
-  <img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/tagline.svg" alt="Typing SVG"/>
+  <img src="assets/tagline.svg" alt="Typing SVG"/>
 </a>
 
 <br/>
@@ -32,7 +32,7 @@
 > ### 🛡️ The security & compliance brain that lives inside your editor.
 > **No servers. No API keys. No cloud. No noise.** Just open your project, type a command, and get a board-ready security and compliance verdict in seconds.
 
-<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/divider.svg" width="100%"/>
+<img src="assets/divider.svg" width="100%"/>
 
 </div>
 
@@ -43,12 +43,12 @@
 ## 🎬 See It In Action
 
 <a href="#-quick-start">
-<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/terminal-demo.svg" alt="live MrHunter scan" width="100%"/>
+<img src="assets/terminal-demo.svg" alt="live MrHunter scan" width="100%"/>
 </a>
 
 <sub>⬆️ a live MrHunter scan, from one command to a board-ready verdict in seconds</sub>
 
-<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/divider.svg" width="100%"/>
+<img src="assets/divider.svg" width="100%"/>
 
 </div>
 
@@ -83,7 +83,7 @@
 </tr>
 </table>
 
-<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/battle-tested-a.svg" alt="Battle-tested at Petpooja — India's largest F&amp;B SaaS platform" width="100%"/>
+<img src="assets/battle-tested-a.svg" alt="Battle-tested at Petpooja — India's largest F&amp;B SaaS platform" width="100%"/>
 
 <br/>
 
@@ -98,7 +98,7 @@
 <img src="https://img.shields.io/badge/%F0%9F%8E%93_EdTech-2962FF?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/%F0%9F%9A%9A_Logistics-455A64?style=for-the-badge"/>
 
-<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/divider.svg" width="100%"/>
+<img src="assets/divider.svg" width="100%"/>
 
 </div>
 
@@ -145,7 +145,7 @@
 
 > **Five specialized AI engines. One command. A complete security posture.**
 
-<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/divider.svg" width="100%"/>
+<img src="assets/divider.svg" width="100%"/>
 
 </div>
 
@@ -211,7 +211,7 @@ Deduplicates, cross-references and **risk-ranks** everything the other engines f
 
 > **MrHunter is agent-agnostic.** It's a portable security &amp; compliance brain you can drop into **any** AI coding agent you already use, no lock-in, no new tool to learn.
 
-<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/divider.svg" width="100%"/>
+<img src="assets/divider.svg" width="100%"/>
 
 </div>
 
@@ -249,8 +249,8 @@ Deduplicates, cross-references and **risk-ranks** everything the other engines f
 
 > MrHunter isn't just a scanner, it's a **GRC co-pilot**. It turns raw code findings into **audit-ready evidence**, maps every issue to a control framework, and quantifies the **business &amp; legal risk** leadership cares about.
 
-<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/flag-in.svg" height="13" alt="IN"/> <img src="https://img.shields.io/badge/DPDP_Act-2023_+_Rules_2025-FF9933?style=flat-square"/>
-<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/flag-in.svg" height="13" alt="IN"/> <img src="https://img.shields.io/badge/IT_Act-2000-138808?style=flat-square"/>
+<img src="assets/flag-in.svg" height="13" alt="IN"/> <img src="https://img.shields.io/badge/DPDP_Act-2023_+_Rules_2025-FF9933?style=flat-square"/>
+<img src="assets/flag-in.svg" height="13" alt="IN"/> <img src="https://img.shields.io/badge/IT_Act-2000-138808?style=flat-square"/>
 <img src="https://img.shields.io/badge/%F0%9F%92%B3_PCI_DSS-4.0.1-1A1F71?style=flat-square"/>
 <img src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F_CERT--IN-Directions_2022-0B7285?style=flat-square"/>
 <img src="https://img.shields.io/badge/%F0%9F%8F%A6_RBI-Cyber_Resilience_2024-6A1B9A?style=flat-square"/>
@@ -268,11 +268,11 @@ Deduplicates, cross-references and **risk-ranks** everything the other engines f
 | 🔒 **ISO/IEC 27001** | Access control, cryptography, logging &amp; monitoring, secure SDLC (Annex A controls) | Clears enterprise &amp; vendor security questionnaires |
 | 🧭 **NIST SP 800-53** | AC · AU · SC · SI · RA control families | Required for regulated &amp; government procurement |
 
-### <img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/flag-in.svg" height="18" alt="IN"/> Indian regulatory frameworks
+### <img src="assets/flag-in.svg" height="18" alt="IN"/> Indian regulatory frameworks
 | Framework | What MrHunter Checks | Why It Matters |
 |---|---|---|
-| <img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/flag-in.svg" height="12" alt="IN"/> **DPDP Act 2023** | Consent, children's data, breach readiness, erasure | Penalties up to **₹250 Cr** |
-| <img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/flag-in.svg" height="12" alt="IN"/> **IT Act 2000** | SPDI safeguards, disclosure, confidentiality | Criminal + civil liability |
+| <img src="assets/flag-in.svg" height="12" alt="IN"/> **DPDP Act 2023** | Consent, children's data, breach readiness, erasure | Penalties up to **₹250 Cr** |
+| <img src="assets/flag-in.svg" height="12" alt="IN"/> **IT Act 2000** | SPDI safeguards, disclosure, confidentiality | Criminal + civil liability |
 | 💳 **PCI DSS 4.0.1** | PAN/CVV storage, TLS, MFA, logging | Card-brand fines &amp; suspension |
 | 🛡️ **CERT-IN 2022** | 6-hour reporting, 180-day logs, NTP, MFA | Statutory obligation |
 | 🏦 **RBI Cyber 2024** | Device binding, tokenization, rate limits | PSS Act penalties |
@@ -285,7 +285,7 @@ Deduplicates, cross-references and **risk-ranks** everything the other engines f
 - **Penalty exposure in ₹ / $**, plain-English risk for the board
 - **One-click audit report export**, hand it straight to auditors &amp; leadership
 
-<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/divider.svg" width="100%"/>
+<img src="assets/divider.svg" width="100%"/>
 
 </div>
 
@@ -338,7 +338,7 @@ your-project/
 
 > MrHunter follows a **Zero Trust** model, *never trust, always verify*, applied to the scanner itself. Nothing about your code, secrets, or findings is implicitly trusted with any external system.
 
-<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/divider.svg" width="100%"/>
+<img src="assets/divider.svg" width="100%"/>
 
 </div>
 
@@ -387,7 +387,7 @@ opencode
 
 > 🎉 That's it. **No background services. Nothing leaves your machine.**
 
-<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/divider.svg" width="100%"/>
+<img src="assets/divider.svg" width="100%"/>
 
 </div>
 
@@ -471,7 +471,7 @@ Remove-Item -Recurse -Force _mrhunter
 </tr>
 </table>
 
-<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/divider.svg" width="100%"/>
+<img src="assets/divider.svg" width="100%"/>
 
 </div>
 
@@ -492,7 +492,7 @@ Remove-Item -Recurse -Force _mrhunter
 | Cost | 💸 Licenses | 🆓 Zero |
 | Runs inside your editor | ❌ | ✅ |
 
-<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/divider.svg" width="100%"/>
+<img src="assets/divider.svg" width="100%"/>
 
 </div>
 
@@ -538,7 +538,7 @@ Yes. Any file trying to hijack the agent is flagged as a <b>CWE-77</b> finding a
 Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift, with OWASP Top 10, CWE Top 25 &amp; OWASP API Top 10 coverage.
 </details>
 
-<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/divider.svg" width="100%"/>
+<img src="assets/divider.svg" width="100%"/>
 
 </div>
 
@@ -548,7 +548,7 @@ Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift, with OWAS
 
 ## 💬 Wall of Love
 
-<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/wall-of-love.svg" alt="What people say about MrHunter" width="100%"/>
+<img src="assets/wall-of-love.svg" alt="What people say about MrHunter" width="100%"/>
 
 </div>
 
@@ -569,7 +569,7 @@ Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift, with OWAS
 <br/><br/>
 <a href="mailto:vyomnagpal7@gmail.com"><img src="https://img.shields.io/badge/Email-vyomnagpal7@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 <br/>
-<a href="https://www.linkedin.com/in/vyomnagpal"><img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/badge-linkedin-vyomnagpal.svg" alt="LinkedIn"/></a>
+<a href="https://www.linkedin.com/in/vyomnagpal"><img src="assets/badge-linkedin-vyomnagpal.svg" alt="LinkedIn"/></a>
 
 </td>
 <td align="center" width="50%">
@@ -579,7 +579,7 @@ Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift, with OWAS
 <br/>
 <sub>Data Science @ Petpooja</sub>
 <br/><br/>
-<a href="https://www.linkedin.com/in/sahil-patel1815/"><img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/badge-linkedin-sahil-patel1815.svg" alt="LinkedIn"/></a>
+<a href="https://www.linkedin.com/in/sahil-patel1815/"><img src="assets/badge-linkedin-sahil-patel1815.svg" alt="LinkedIn"/></a>
 
 </td>
 </tr>
@@ -604,6 +604,6 @@ Released under the **MIT License**, free to use, fork, and extend.
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/TheWildEye/MrHunter2/main/assets/footer-hacker.svg" width="100%"/>
+<img src="assets/footer-hacker.svg" width="100%"/>
 
 </div>
