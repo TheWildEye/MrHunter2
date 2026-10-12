@@ -60,28 +60,10 @@ jobs:
 
   # ─────────────────────────────────────────────────────────────
   #  Security assessment (SAST + secret scanning)
-  #  Compliance audit is intentionally NOT run here.
+  #  Delegates to the reusable, codebase-agnostic pipeline.
+  #  Only the exclude list is repo-specific.
   # ─────────────────────────────────────────────────────────────
   security:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Secret scanning (Gitleaks)
-        uses: gitleaks/gitleaks-action@v2
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: SAST (Semgrep)
-        run: |
-          set -e
-          python3 -m pip install --quiet semgrep
-          semgrep scan \
-            --config p/security-audit \
-            --error \
-            --exclude test-cases \
-            --exclude .github \
-            --exclude assets
-          echo "SAST scan clean"
+    uses: ./.github/workflows/security-assessment.yml
+    with:
+      exclude-paths: "MrHunter/test-cases,node_modules,vendor,dist,build,.git"
