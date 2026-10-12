@@ -95,8 +95,6 @@
 
 ## 🚨 The Reality Most Teams Ignore
 
-</div>
-
 <table>
 <tr>
 <th>❌ The Old Way</th>
@@ -123,6 +121,10 @@
 <td><b>Evidence-first:</b> exact file, line, and data flow</td>
 </tr>
 </table>
+
+<img src="assets/divider.svg" width="100%"/>
+
+</div>
 
 ---
 
@@ -284,6 +286,8 @@ MrHunter isn't just a scanner, it's a **GRC co-pilot**. It turns raw code findin
 
 **One command fans out to five engines. One reviewer unifies the verdict.**
 
+<img src="assets/divider.svg" width="100%"/>
+
 </div>
 
 ```mermaid
@@ -386,6 +390,8 @@ opencode
 
 Prefer to do it by hand? Just clone and copy. No scripts, no surprises.
 
+<img src="assets/divider.svg" width="100%"/>
+
 </div>
 
 **macOS / Linux**
@@ -412,8 +418,6 @@ Then open OpenCode in your project and run `/mrhunter-quick-scan`.
 
 ## 🎯 Commands
 
-</div>
-
 | Command | What It Does | Best For |
 |---|---|---|
 | <kbd>/mrhunter-security-assess</kbd> | **Full VAPT**, SAST + DAST + secrets + compliance, risk-ranked | Pre-release &amp; sprint sign-off |
@@ -422,6 +426,10 @@ Then open OpenCode in your project and run `/mrhunter-quick-scan`.
 | <kbd>/mrhunter-fix-issue</kbd> | **Remediation advisor**, exact before/after fix guidance | Fixing a specific finding |
 
 📄 Every report ends with an optional **one-click `.txt` export**, technical detail *and* a plain-English management summary.
+
+<img src="assets/divider.svg" width="100%"/>
+
+</div>
 
 ---
 
@@ -563,6 +571,8 @@ Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift, with OWAS
 
 <img src="assets/wall-of-love.svg" alt="What people say about MrHunter" width="100%"/>
 
+<img src="assets/divider.svg" width="100%"/>
+
 </div>
 
 ---
@@ -601,6 +611,8 @@ Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift, with OWAS
 💬 **Found a false positive? Want a new check?**
 Open an [issue](https://github.com/TheWildEye/MrHunter2/issues) or reach out, we ship fast.
 
+<img src="assets/divider.svg" width="100%"/>
+
 </div>
 
 ---
@@ -614,6 +626,8 @@ Released under the **MIT License**, free to use, fork, and extend.
 <br/>
 
 **⭐ If MrHunter saved you time (or a penalty), drop a star, it fuels the next engine.**
+
+<img src="assets/divider.svg" width="100%"/>
 
 <br/>
 
