@@ -8,29 +8,29 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/version-2.1.0-22D3EE?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/built%20for-OpenCode-7C3AED?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/dependencies-0-22C55E?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/OWASP-Top%2010-E11D48?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/CWE-Top%2025-F59E0B?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/version-2.1.0-00C853?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/built%20for-OpenCode-00C853?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/dependencies-0-00C853?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/OWASP-Top%2010-00C853?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/CWE-Top%2025-00C853?style=for-the-badge&labelColor=0f2027"/>
 <br/>
-<img src="https://img.shields.io/badge/ISO%2027001-Aligned-10B981?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/NIST%20SP%20800--53-Aligned-0EA5E9?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/DPDP%20Act-2023-FF9933?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/PCI%20DSS-4.0.1-1A1F71?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/ISO%2027001-Aligned-00C853?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/NIST%20SP%20800--53-Aligned-00C853?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/DPDP%20Act-2023-00C853?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/PCI%20DSS-4.0.1-00C853?style=for-the-badge&labelColor=0f2027"/>
 
 <br/><br/>
 
-<a href="#-quick-start"><img src="https://img.shields.io/badge/%E2%9A%A1_QUICK_START-Install%20in%2060s-00C853?style=for-the-badge"/></a>
-<a href="#-commands"><img src="https://img.shields.io/badge/%F0%9F%93%96_COMMANDS-Reference-2962FF?style=for-the-badge"/></a>
-<a href="#-why-teams-choose-mrhunter"><img src="https://img.shields.io/badge/%F0%9F%92%A1_WHY_MRHUNTER-For%20Leads%20%26%20CISOs-FF6D00?style=for-the-badge"/></a>
-<a href="https://github.com/TheWildEye/MrHunter2/issues"><img src="https://img.shields.io/badge/%F0%9F%90%9B_REPORT-Issues-FF5252?style=for-the-badge"/></a>
-<a href="#-credits"><img src="https://img.shields.io/badge/%F0%9F%91%A5_CREDITS-Team-8E24AA?style=for-the-badge"/></a>
+<a href="#-quick-start"><img src="https://img.shields.io/badge/%E2%9A%A1_QUICK_START-Install%20in%2060s-00C853?style=for-the-badge&labelColor=0f2027"/></a>
+<a href="#-commands"><img src="https://img.shields.io/badge/%F0%9F%93%96_COMMANDS-Reference-00C853?style=for-the-badge&labelColor=0f2027"/></a>
+<a href="#-why-teams-choose-mrhunter"><img src="https://img.shields.io/badge/%F0%9F%92%A1_WHY_MRHUNTER-For%20Leads%20%26%20CISOs-00C853?style=for-the-badge&labelColor=0f2027"/></a>
+<a href="https://github.com/TheWildEye/MrHunter2/issues"><img src="https://img.shields.io/badge/%F0%9F%90%9B_REPORT-Issues-00C853?style=for-the-badge&labelColor=0f2027"/></a>
+<a href="#-credits"><img src="https://img.shields.io/badge/%F0%9F%91%A5_CREDITS-Team-00C853?style=for-the-badge&labelColor=0f2027"/></a>
 
 <br/><br/>
 
-> ### 🛡️ The security & compliance brain that lives inside your editor.
-> **No servers. No API keys. No cloud. No noise.** Just open your project, type a command, and get a board-ready security and compliance verdict in seconds.
+### 🛡️ The security & compliance brain that lives inside your editor.
+**No servers. No API keys. No cloud. No noise.** Just open your project, type a command, and get a board-ready security and compliance verdict in seconds.
 
 <img src="assets/divider.svg" width="100%"/>
 
@@ -89,14 +89,14 @@
 
 **🛰️ Trusted across industries**
 
-<img src="https://img.shields.io/badge/%F0%9F%92%B3_Payments-1A1F71?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/%F0%9F%8F%A6_FinTech-0B7285?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/%F0%9F%8F%A5_HealthTech-00897B?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/%F0%9F%9B%92_E--Commerce-E65100?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/%F0%9F%8D%BD%EF%B8%8F_F%26B_SaaS-D32F2F?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/%F0%9F%93%88_Trading-6A1B9A?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/%F0%9F%8E%93_EdTech-2962FF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/%F0%9F%9A%9A_Logistics-455A64?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/%F0%9F%92%B3_Payments-00C853?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/%F0%9F%8F%A6_FinTech-00C853?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/%F0%9F%8F%A5_HealthTech-00C853?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/%F0%9F%9B%92_E--Commerce-00C853?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/%F0%9F%8D%BD%EF%B8%8F_F%26B_SaaS-00C853?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/%F0%9F%93%88_Trading-00C853?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/%F0%9F%8E%93_EdTech-00C853?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/%F0%9F%9A%9A_Logistics-00C853?style=for-the-badge&labelColor=0f2027"/>
 
 <img src="assets/divider.svg" width="100%"/>
 
@@ -143,7 +143,7 @@
 
 ## ✨ What MrHunter Does
 
-> **Five specialized AI engines. One command. A complete security posture.**
+**Five specialized AI engines. One command. A complete security posture.**
 
 <img src="assets/divider.svg" width="100%"/>
 
@@ -209,7 +209,7 @@ Deduplicates, cross-references and **risk-ranks** everything the other engines f
 
 ## 🔌 Bring Your Own Agent (BYOA)
 
-> **MrHunter is agent-agnostic.** It's a portable security &amp; compliance brain you can drop into **any** AI coding agent you already use, no lock-in, no new tool to learn.
+**MrHunter is agent-agnostic.** It's a portable security &amp; compliance brain you can drop into **any** AI coding agent you already use, no lock-in, no new tool to learn.
 
 <img src="assets/divider.svg" width="100%"/>
 
@@ -247,18 +247,18 @@ Deduplicates, cross-references and **risk-ranks** everything the other engines f
 
 ## 🏛️ Audit &amp; GRC: Governance, Risk &amp; Compliance
 
-> MrHunter isn't just a scanner, it's a **GRC co-pilot**. It turns raw code findings into **audit-ready evidence**, maps every issue to a control framework, and quantifies the **business &amp; legal risk** leadership cares about.
+MrHunter isn't just a scanner, it's a **GRC co-pilot**. It turns raw code findings into **audit-ready evidence**, maps every issue to a control framework, and quantifies the **business &amp; legal risk** leadership cares about.
 
-<img src="assets/flag-in.svg" height="13" alt="IN"/> <img src="https://img.shields.io/badge/DPDP_Act-2023_+_Rules_2025-FF9933?style=flat-square"/>
-<img src="assets/flag-in.svg" height="13" alt="IN"/> <img src="https://img.shields.io/badge/IT_Act-2000-138808?style=flat-square"/>
-<img src="https://img.shields.io/badge/%F0%9F%92%B3_PCI_DSS-4.0.1-1A1F71?style=flat-square"/>
-<img src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F_CERT--IN-Directions_2022-0B7285?style=flat-square"/>
-<img src="https://img.shields.io/badge/%F0%9F%8F%A6_RBI-Cyber_Resilience_2024-6A1B9A?style=flat-square"/>
-<img src="https://img.shields.io/badge/%F0%9F%93%88_SEBI-CSCRF_2024-E65100?style=flat-square"/>
-<img src="https://img.shields.io/badge/%F0%9F%8F%A5_IRDAI-Cyber_2023/2026-00897B?style=flat-square"/>
+<img src="assets/flag-in.svg" height="13" alt="IN"/> <img src="https://img.shields.io/badge/DPDP_Act-2023_+_Rules_2025-00C853?style=flat-square&labelColor=0f2027"/>
+<img src="assets/flag-in.svg" height="13" alt="IN"/> <img src="https://img.shields.io/badge/IT_Act-2000-00C853?style=flat-square&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/%F0%9F%92%B3_PCI_DSS-4.0.1-00C853?style=flat-square&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F_CERT--IN-Directions_2022-00C853?style=flat-square&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/%F0%9F%8F%A6_RBI-Cyber_Resilience_2024-00C853?style=flat-square&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/%F0%9F%93%88_SEBI-CSCRF_2024-00C853?style=flat-square&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/%F0%9F%8F%A5_IRDAI-Cyber_2023/2026-00C853?style=flat-square&labelColor=0f2027"/>
 <br/>
-<img src="https://img.shields.io/badge/ISO_27001-Aligned-10B981?style=flat-square"/>
-<img src="https://img.shields.io/badge/NIST_SP_800--53-Aligned-0EA5E9?style=flat-square"/>
+<img src="https://img.shields.io/badge/ISO_27001-Aligned-00C853?style=flat-square&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/NIST_SP_800--53-Aligned-00C853?style=flat-square&labelColor=0f2027"/>
 
 <br/>
 
@@ -295,7 +295,7 @@ Deduplicates, cross-references and **risk-ranks** everything the other engines f
 
 ## 🏗️ Architecture
 
-> **One command fans out to five engines. One reviewer unifies the verdict.**
+**One command fans out to five engines. One reviewer unifies the verdict.**
 
 </div>
 
@@ -336,7 +336,7 @@ your-project/
 
 ## 🛡️ Built on Zero Trust
 
-> MrHunter follows a **Zero Trust** model, *never trust, always verify*, applied to the scanner itself. Nothing about your code, secrets, or findings is implicitly trusted with any external system.
+MrHunter follows a **Zero Trust** model, *never trust, always verify*, applied to the scanner itself. Nothing about your code, secrets, or findings is implicitly trusted with any external system.
 
 <img src="assets/divider.svg" width="100%"/>
 
@@ -359,7 +359,7 @@ your-project/
 
 ## ⚡ Quick Start
 
-> **Prerequisite:** [OpenCode](https://opencode.ai) + Git. That's it. No `npm`, no `pip`, no keys.
+**Prerequisite:** [OpenCode](https://opencode.ai) + Git. That's it. No `npm`, no `pip`, no keys.
 
 **1 · From your project root, install MrHunter**
 
@@ -383,9 +383,9 @@ opencode
 /mrhunter-quick-scan
 ```
 
-> 💡 Want it in **every** project? Add `--global` (macOS/Linux) or `-Global` (Windows) to the install command.
+💡 Want it in **every** project? Add `--global` (macOS/Linux) or `-Global` (Windows) to the install command.
 
-> 🎉 That's it. **No background services. Nothing leaves your machine.**
+🎉 That's it. **No background services. Nothing leaves your machine.**
 
 <img src="assets/divider.svg" width="100%"/>
 
@@ -397,7 +397,7 @@ opencode
 
 ## 📦 Manual Install
 
-> Prefer to do it by hand? Just clone and copy. No scripts, no surprises.
+Prefer to do it by hand? Just clone and copy. No scripts, no surprises.
 
 </div>
 
@@ -417,7 +417,7 @@ Copy-Item _mrhunter/MrHunter/opencode.json, _mrhunter/MrHunter/AGENTS.md ./
 Remove-Item -Recurse -Force _mrhunter
 ```
 
-> Then open OpenCode in your project and run `/mrhunter-quick-scan`.
+Then open OpenCode in your project and run `/mrhunter-quick-scan`.
 
 ---
 
@@ -434,7 +434,7 @@ Remove-Item -Recurse -Force _mrhunter
 | <kbd>/mrhunter-compliance-audit</kbd> | **Deep Indian regulatory audit** across 7 frameworks | Audits, board &amp; CISO reviews |
 | <kbd>/mrhunter-fix-issue</kbd> | **Remediation advisor**, exact before/after fix guidance | Fixing a specific finding |
 
-> 📄 Every report ends with an optional **one-click `.txt` export**, technical detail *and* a plain-English management summary.
+📄 Every report ends with an optional **one-click `.txt` export**, technical detail *and* a plain-English management summary.
 
 ---
 
@@ -567,7 +567,7 @@ Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift, with OWAS
 <br/>
 <sub>Security Engineering &amp; GRC</sub>
 <br/><br/>
-<a href="mailto:vyomnagpal7@gmail.com"><img src="https://img.shields.io/badge/Email-vyomnagpal7@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="mailto:vyomnagpal7@gmail.com"><img src="https://img.shields.io/badge/Email-vyomnagpal7@gmail.com-00C853?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f2027"/></a>
 <br/>
 <a href="https://www.linkedin.com/in/vyomnagpal"><img src="assets/badge-linkedin-vyomnagpal.svg" alt="LinkedIn"/></a>
 
@@ -585,8 +585,8 @@ Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift, with OWAS
 </tr>
 </table>
 
-> 💬 **Found a false positive? Want a new check?**
-> Open an [issue](https://github.com/TheWildEye/MrHunter2/issues) or reach out, we ship fast.
+💬 **Found a false positive? Want a new check?**
+Open an [issue](https://github.com/TheWildEye/MrHunter2/issues) or reach out, we ship fast.
 
 </div>
 
