@@ -6,26 +6,13 @@
   <img src="assets/tagline.svg" alt="Typing SVG"/>
 </a>
 
-<br/>
-
-<img src="https://img.shields.io/badge/version-2.1.0-00C853?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/built%20for-OpenCode-00C853?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/dependencies-0-00C853?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/OWASP-Top%2010-00C853?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/CWE-Top%2025-00C853?style=for-the-badge&labelColor=0f2027"/>
-<br/>
-<img src="https://img.shields.io/badge/ISO%2027001-Aligned-00C853?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/NIST%20SP%20800--53-Aligned-00C853?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/DPDP%20Act-2023-00C853?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/PCI%20DSS-4.0.1-00C853?style=for-the-badge&labelColor=0f2027"/>
-
 <br/><br/>
 
-<a href="#-quick-start"><img src="https://img.shields.io/badge/%E2%9A%A1_QUICK_START-Install%20in%2060s-00C853?style=for-the-badge&labelColor=0f2027"/></a>
-<a href="#-commands"><img src="https://img.shields.io/badge/%F0%9F%93%96_COMMANDS-Reference-00C853?style=for-the-badge&labelColor=0f2027"/></a>
-<a href="#-why-teams-choose-mrhunter"><img src="https://img.shields.io/badge/%F0%9F%92%A1_WHY_MRHUNTER-For%20Leads%20%26%20CISOs-00C853?style=for-the-badge&labelColor=0f2027"/></a>
-<a href="https://github.com/TheWildEye/MrHunter2/issues"><img src="https://img.shields.io/badge/%F0%9F%90%9B_REPORT-Issues-00C853?style=for-the-badge&labelColor=0f2027"/></a>
-<a href="#-credits"><img src="https://img.shields.io/badge/%F0%9F%91%A5_CREDITS-Team-00C853?style=for-the-badge&labelColor=0f2027"/></a>
+<a href="#-quick-start"><img src="https://img.shields.io/badge/%E2%9A%A1_QUICK_START-Install%20in%2060s-15803D?style=for-the-badge&labelColor=0f2027"/></a>
+<a href="#-commands"><img src="https://img.shields.io/badge/%F0%9F%93%96_COMMANDS-Reference-15803D?style=for-the-badge&labelColor=0f2027"/></a>
+<a href="#-why-teams-choose-mrhunter"><img src="https://img.shields.io/badge/%F0%9F%92%A1_WHY_MRHUNTER-15803D?style=for-the-badge&labelColor=0f2027"/></a>
+<a href="https://github.com/TheWildEye/MrHunter2/issues"><img src="https://img.shields.io/badge/%F0%9F%90%9B_REPORT-Issues-15803D?style=for-the-badge&labelColor=0f2027"/></a>
+<a href="#-credits"><img src="https://img.shields.io/badge/%F0%9F%91%A5_CREDITS-Team-15803D?style=for-the-badge&labelColor=0f2027"/></a>
 
 <br/><br/>
 
@@ -89,14 +76,14 @@
 
 **🛰️ Trusted across industries**
 
-<img src="https://img.shields.io/badge/%F0%9F%92%B3_Payments-00C853?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/%F0%9F%8F%A6_FinTech-00C853?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/%F0%9F%8F%A5_HealthTech-00C853?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/%F0%9F%9B%92_E--Commerce-00C853?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/%F0%9F%8D%BD%EF%B8%8F_F%26B_SaaS-00C853?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/%F0%9F%93%88_Trading-00C853?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/%F0%9F%8E%93_EdTech-00C853?style=for-the-badge&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/%F0%9F%9A%9A_Logistics-00C853?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/%F0%9F%92%B3_Payments-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/%F0%9F%8F%A6_FinTech-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/%F0%9F%8F%A5_HealthTech-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/%F0%9F%9B%92_E--Commerce-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/%F0%9F%8D%BD%EF%B8%8F_F%26B_SaaS-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/%F0%9F%93%88_Trading-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/%F0%9F%8E%93_EdTech-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/%F0%9F%9A%9A_Logistics-1D4ED8?style=for-the-badge&labelColor=0f2027"/>
 
 <img src="assets/divider.svg" width="100%"/>
 
@@ -249,16 +236,16 @@ Deduplicates, cross-references and **risk-ranks** everything the other engines f
 
 MrHunter isn't just a scanner, it's a **GRC co-pilot**. It turns raw code findings into **audit-ready evidence**, maps every issue to a control framework, and quantifies the **business &amp; legal risk** leadership cares about.
 
-<img src="assets/flag-in.svg" height="13" alt="IN"/> <img src="https://img.shields.io/badge/DPDP_Act-2023_+_Rules_2025-00C853?style=flat-square&labelColor=0f2027"/>
-<img src="assets/flag-in.svg" height="13" alt="IN"/> <img src="https://img.shields.io/badge/IT_Act-2000-00C853?style=flat-square&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/%F0%9F%92%B3_PCI_DSS-4.0.1-00C853?style=flat-square&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F_CERT--IN-Directions_2022-00C853?style=flat-square&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/%F0%9F%8F%A6_RBI-Cyber_Resilience_2024-00C853?style=flat-square&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/%F0%9F%93%88_SEBI-CSCRF_2024-00C853?style=flat-square&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/%F0%9F%8F%A5_IRDAI-Cyber_2023/2026-00C853?style=flat-square&labelColor=0f2027"/>
+<img src="assets/flag-in.svg" height="13" alt="IN"/> <img src="https://img.shields.io/badge/DPDP_Act-2023_+_Rules_2025-6D28D9?style=flat-square&labelColor=0f2027"/>
+<img src="assets/flag-in.svg" height="13" alt="IN"/> <img src="https://img.shields.io/badge/IT_Act-2000-6D28D9?style=flat-square&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/%F0%9F%92%B3_PCI_DSS-4.0.1-6D28D9?style=flat-square&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F_CERT--IN-Directions_2022-6D28D9?style=flat-square&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/%F0%9F%8F%A6_RBI-Cyber_Resilience_2024-6D28D9?style=flat-square&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/%F0%9F%93%88_SEBI-CSCRF_2024-6D28D9?style=flat-square&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/%F0%9F%8F%A5_IRDAI-Cyber_2023/2026-6D28D9?style=flat-square&labelColor=0f2027"/>
 <br/>
-<img src="https://img.shields.io/badge/ISO_27001-Aligned-00C853?style=flat-square&labelColor=0f2027"/>
-<img src="https://img.shields.io/badge/NIST_SP_800--53-Aligned-00C853?style=flat-square&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/ISO_27001-Aligned-6D28D9?style=flat-square&labelColor=0f2027"/>
+<img src="https://img.shields.io/badge/NIST_SP_800--53-Aligned-6D28D9?style=flat-square&labelColor=0f2027"/>
 
 <br/>
 
@@ -444,7 +431,7 @@ Then open OpenCode in your project and run `/mrhunter-quick-scan`.
 
 <table>
 <tr>
-<td align="center" width="33%">
+<td align="center" width="25%">
 
 ### 👔 For Team Leads
 - Catch issues **before code review**
@@ -452,7 +439,15 @@ Then open OpenCode in your project and run `/mrhunter-quick-scan`.
 - Actionable fixes, not lectures
 
 </td>
-<td align="center" width="33%">
+<td align="center" width="25%">
+
+### 🧑‍💻 For Security Engineers
+- **AppSec + product** coverage
+- Taint-aware SAST, fewer false positives
+- `source → sink` evidence per finding
+
+</td>
+<td align="center" width="25%">
 
 ### 🛡️ For CISOs
 - Compliance exposure, **quantified**
@@ -460,7 +455,7 @@ Then open OpenCode in your project and run `/mrhunter-quick-scan`.
 - Frameworks mapped to real code
 
 </td>
-<td align="center" width="33%">
+<td align="center" width="25%">
 
 ### 📊 For Managers
 - Plain-English risk summaries
@@ -567,7 +562,7 @@ Python, JavaScript/TypeScript, Java, Go, PHP, Ruby, Kotlin, and Swift, with OWAS
 <br/>
 <sub>Security Engineering &amp; GRC</sub>
 <br/><br/>
-<a href="mailto:vyomnagpal7@gmail.com"><img src="https://img.shields.io/badge/Email-vyomnagpal7@gmail.com-00C853?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f2027"/></a>
+<a href="mailto:vyomnagpal7@gmail.com"><img src="https://img.shields.io/badge/Email-vyomnagpal7@gmail.com-334155?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f2027"/></a>
 <br/>
 <a href="https://www.linkedin.com/in/vyomnagpal"><img src="assets/badge-linkedin-vyomnagpal.svg" alt="LinkedIn"/></a>
 
