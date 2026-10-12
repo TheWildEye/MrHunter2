@@ -136,8 +136,6 @@
 
 Five specialized engines behind one command.
 
-<img src="assets/divider.svg" width="100%"/>
-
 </div>
 
 ### SAST: Static Analysis
@@ -170,6 +168,8 @@ Deduplicates, cross-references and risk-ranks findings from the other engines.
 - Removes false positives, verifies reachability, separates real from theoretical
 - Produces one board-ready report: technical depth for engineers, plain English for leadership
 
+<img src="assets/divider.svg" width="100%"/>
+
 ---
 
 <div align="center">
@@ -177,8 +177,6 @@ Deduplicates, cross-references and risk-ranks findings from the other engines.
 ## 05 · 🔌 Bring Your Own Agent (BYOA)
 
 MrHunter is agent-agnostic. Drop the same skill pack into any AI coding agent you already use.
-
-<img src="assets/divider.svg" width="100%"/>
 
 </div>
 
@@ -190,6 +188,8 @@ Works with **Claude Code**, **Gemini / Antigravity**, **ChatGPT Codex**, **OpenC
 - Future-proof: swap agents anytime, keep MrHunter
 
 <sub>Same engines, same reports, same compliance verdicts, whichever agent you point at your code.</sub>
+
+<img src="assets/divider.svg" width="100%"/>
 
 ---
 
@@ -234,8 +234,6 @@ MrHunter isn't just a scanner, it's a **GRC co-pilot**. It turns raw code findin
 
 **One command fans out to five engines. One reviewer unifies the verdict.**
 
-<img src="assets/divider.svg" width="100%"/>
-
 </div>
 
 ```mermaid
@@ -269,6 +267,8 @@ your-project/
     └── skills/                   # OWASP · CWE · Mobile · Legal knowledge
 ```
 
+<img src="assets/divider.svg" width="100%"/>
+
 ---
 
 <div align="center">
@@ -276,8 +276,6 @@ your-project/
 ## 08 · 🛡️ Built on Zero Trust
 
 MrHunter follows a **Zero Trust** model, *never trust, always verify*, applied to the scanner itself. Nothing about your code, secrets, or findings is implicitly trusted with any external system.
-
-<img src="assets/divider.svg" width="100%"/>
 
 </div>
 
@@ -291,6 +289,8 @@ MrHunter follows a **Zero Trust** model, *never trust, always verify*, applied t
 | **No shared trust** | No cloud, no telemetry, no third-party dependency in the scan path |
 
 <sub>No servers. No telemetry. Nothing leaves your machine, a zero-trust, local-first agent by design.</sub>
+
+<img src="assets/divider.svg" width="100%"/>
 
 ---
 
@@ -338,8 +338,6 @@ That's it. **No background services. Nothing leaves your machine.**
 
 Prefer to do it by hand? Just clone and copy. No scripts, no surprises.
 
-<img src="assets/divider.svg" width="100%"/>
-
 </div>
 
 **macOS / Linux**
@@ -359,6 +357,8 @@ Remove-Item -Recurse -Force _mrhunter
 ```
 
 Then open OpenCode in your project and run `/mrhunter-quick-scan`.
+
+<img src="assets/divider.svg" width="100%"/>
 
 ---
 
